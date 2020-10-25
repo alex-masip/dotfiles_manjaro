@@ -1,0 +1,34 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup.html",
+      "default_title": "dataslayer"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "firefox@dataslayer.org"
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "injectlaunchmonitors.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Debug and test tag management (Google Tag Manager, DTM, Tealium) and analytics implementations.",
+   "devtools_page": "devtools.html",
+   "icons": {
+      "128": "i128.png",
+      "48": "i48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuDocO6bgJ6COCdMkoMo6ZwJf7ZfGDk7Ehgyuh7DnpVsWmbbg4m4prof9J/AZ7tKcL0lMI6JV5o9q4Fd/xUwusGGIkLnXvPFobP8LNB8Ia1sO5J1ks9qck9lWvqN8Mbuj8Y4PBofzNGLPvNYw8mExLHOLWGTqBkmoPORXPVg5RrjAesGlFijMRpI8P+OasdrXzQ9QDu2JM4tyNCR+1HYL1Ju3F5CePh6Zu8+84zY9RVA9uDH8a7E0KDj6q16veVRr7oZfrHb3vL4xYbiwfurWAR/8XnIeUjQYWA5FuNo4JGDIfyyTRwYgakjHGhpvquqniosykGT2y8uJvarV71SjBQIDAQAB",
+   "manifest_version": 2,
+   "name": "dataslayer",
+   "permissions": [ "tabs", "storage", "http://*/*", "https://*/*", "notifications", "webNavigation", "declarativeWebRequest" ],
+   "short_name": "dataslayer",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.0",
+   "web_accessible_resources": [ "inject.js", "injectlaunchmonitors.js" ]
+}

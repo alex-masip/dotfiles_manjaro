@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Feilsøking"
+   },
+   "active_live_debug_status": {
+      "message": "Feilsøker den aktive beholderen"
+   },
+   "active_preview_status": {
+      "message": "Forhåndsvisning"
+   },
+   "check_network": {
+      "message": "Kontrollér at du tillater informasjonskapsler fra tredjeparter fra optimize.google.com og www.google-analytics.com, sjekk nettverkstilkoblingen og sikkerhetsreglene dine for innhold (CSP) (https://support.google.com/optimize/answer/7388531), og prøv deretter på nytt."
+   },
+   "diff_preview_container": {
+      "message": "Siden i denne forhåndsvisningen skiller seg fra siden som skal forhåndsvises ifølge eksperimentdetaljene."
+   },
+   "emulation_failure": {
+      "message": "Enhetsemuleringen kan ikke forhåndsvises: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Kan ikke forhåndsvise opplevelsen. Sørg for at du aktiverer informasjonskapsler og starter nettleseren på nytt."
+   },
+   "enable_cookies_live": {
+      "message": "Kan ikke feilsøke direkte. Sørg for at du aktiverer informasjonskapsler og starter nettleseren på nytt."
+   },
+   "ext_description": {
+      "message": "Gjør det enklere å redigere innhold ved hjelp av Google Optimize."
+   },
+   "failed_to_load": {
+      "message": "Optimize-redigeringsverktøyet kan ikke lastes inn."
+   },
+   "help": {
+      "message": "Hjelp"
+   },
+   "inactive_preview_status": {
+      "message": "Forhåndsvisningen er ikke aktiv"
+   },
+   "internal_error": {
+      "message": "Det har oppstått en intern feil i Optimize-redigeringsverktøyet."
+   },
+   "mobile": {
+      "message": "Mobilenhet"
+   },
+   "no_optimize_snippet": {
+      "message": "Denne siden har ingen Optimize-kodebit for denne beholderen. Før du kan se en forhåndsvisning av siden og starte et eksperiment, må du sjekke at kodebiten er riktig konfigurert på siden."
+   },
+   "no_preview_status": {
+      "message": "Ingen forhåndsvisning"
+   },
+   "no_snippet_status": {
+      "message": "Ingen kodebit"
+   },
+   "not_active_review_page": {
+      "message": "Denne siden er ikke lenger den aktive siden i forhåndsvisningen. Last inn siden på nytt for å se den aktive forhåndsvisningen. Hvis du ikke foretar deg noen, vises fortsatt denne varianten."
+   },
+   "not_experiment_page_1": {
+      "message": "Denne utvidelsen er et verktøy for å se forhåndsvisninger av eksperimentsidene dine i Optimize."
+   },
+   "not_experiment_page_2": {
+      "message": "Den gjeldende siden er ikke aktiv i forhåndsvisningen."
+   },
+   "open_optimize": {
+      "message": "Åpne Google Optimize"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "Google Optimize-kodebiten for beholderen med ID-en $1 er ikke korrekt installert på denne siden. Hvis du vil ta en forhåndstitt på opplevelser eller feilsøke beholderen, må du påse at Google Optimize-kodebiten er installert på alle de sidene du vil teste.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Last inn på nytt"
+   },
+   "tablet": {
+      "message": "Nettbrett"
+   },
+   "turn_off": {
+      "message": "Slå av forhåndsvisningen"
+   },
+   "turn_off_debug": {
+      "message": "Slå av feilsøkingen"
+   },
+   "turn_off_live": {
+      "message": "Slå av direkte feilsøking"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nDu har angitt følgende nettadresse:\n$1\nDenne adressen viderekobler til denne siden. Av sikkerhetshensyn er det ikke støtte for enkelte viderekoblinger i Optimize-redigeringsverktøyet.\n\nFor å bruke denne siden i eksperimentet ditt klikker du på tilbakeknappen i nettleseren for å gå tilbake til Optimize og endre nettadressen i redigeringsverktøyet til følgende adresse:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Datamaskin"
+   }
+}

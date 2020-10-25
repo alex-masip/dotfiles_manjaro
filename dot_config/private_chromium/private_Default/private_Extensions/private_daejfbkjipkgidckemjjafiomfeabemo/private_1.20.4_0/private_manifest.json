@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Troubleshoot and audit analytics tags, variables and on-click events. Supports Adobe Analytics, Google Analytics, Ensighten and more",
+   "devtools_page": "devtools.html",
+   "homepage_url": "http://www.observepoint.com/?utm_source=extension&utm_medium=app-click&utm_campaign=extension-panel",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png"
+   },
+   "incognito": "spanning",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnhUqMJziVr9wAN37kLcUSpRScafzHEpdLLUMhWmkQ4Dq6XEAHNA5V1F+Nxhe4qn52owXgugQX8s44QF+0lZoGVNIOL6uu16KFkXTRMIE4wNNsa7LsmeC0xy1U8dJbSWxHVA+/DeeOSAsw2uzmz158zFOb/JJomZbQ0rN9NgQCzwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "49.0",
+   "name": "ObservePoint Tag Debugger",
+   "offline_enabled": true,
+   "options_page": "options.html",
+   "permissions": [ "storage", "webRequest", "\u003Call_urls>", "downloads" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.20.4",
+   "web_accessible_resources": [ "js/content.js" ]
+}

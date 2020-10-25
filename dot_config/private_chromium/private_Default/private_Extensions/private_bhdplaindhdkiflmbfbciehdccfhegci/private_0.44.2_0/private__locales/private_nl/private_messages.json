@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Foutopsporing"
+   },
+   "active_live_debug_status": {
+      "message": "Live foutopsporing"
+   },
+   "active_preview_status": {
+      "message": "Voorbeeld bekijken"
+   },
+   "check_network": {
+      "message": "Zorg ervoor dat u externe cookies van optimize.google.com en www.google-analytics.com toestaat, controleer uw netwerkverbinding en CSP-beleid (https://support.google.com/optimize/answer/7388531) en probeer het opnieuw."
+   },
+   "diff_preview_container": {
+      "message": "Het voorbeeld op deze pagina verschilt van het voorbeeld dat u heeft geselecteerd op de pagina met experimentgegevens."
+   },
+   "emulation_failure": {
+      "message": "Voorbeeld van apparaatemulatie mislukt: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Kan geen voorbeeld van het website-experiment weergeven. Schakel cookies in en start de browser opnieuw."
+   },
+   "enable_cookies_live": {
+      "message": "Kan live foutopsporing niet inschakelen. Schakel cookies in en start de browser opnieuw."
+   },
+   "ext_description": {
+      "message": "Maakt de bewerking van content met Google Optimize mogelijk."
+   },
+   "failed_to_load": {
+      "message": "De Optimize-editor kan niet worden geladen."
+   },
+   "help": {
+      "message": "Help"
+   },
+   "inactive_preview_status": {
+      "message": "Inactief voorbeeld"
+   },
+   "internal_error": {
+      "message": "Er is een interne fout opgetreden in de Optimize-editor."
+   },
+   "mobile": {
+      "message": "Mobiel"
+   },
+   "no_optimize_snippet": {
+      "message": "Deze pagina bevat geen Optimize-fragment voor deze container. Als u een voorbeeld van deze pagina wilt bekijken en een experiment wilt starten, controleert u of het fragment correct is ingesteld op uw pagina."
+   },
+   "no_preview_status": {
+      "message": "Geen voorbeeld"
+   },
+   "no_snippet_status": {
+      "message": "Geen fragment"
+   },
+   "not_active_review_page": {
+      "message": "Deze pagina is niet langer de actieve voorbeeldpagina. Laad de pagina opnieuw om het actieve voorbeeld te bekijken. U kunt ook niets doen als u deze variant wilt blijven bekijken."
+   },
+   "not_experiment_page_1": {
+      "message": "Deze extensie is een tool waarmee u een voorbeeld van uw Optimize-experimentpagina's kunt bekijken."
+   },
+   "not_experiment_page_2": {
+      "message": "Van de huidige pagina wordt geen voorbeeld weergegeven."
+   },
+   "open_optimize": {
+      "message": "Google Optimize openen"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "Het Google Optimize-fragment voor de container met ID $1 is niet juist geïnstalleerd io deze pagina. Als u website-experimenten wilt bekijken of foutopsporing wilt gebruiken voor de container, moet het Google Optimize-fragment zijn geplaatst op de pagina's die u wilt testen.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Opnieuw laden"
+   },
+   "tablet": {
+      "message": "Tablet"
+   },
+   "turn_off": {
+      "message": "Voorbeeld uitschakelen"
+   },
+   "turn_off_debug": {
+      "message": "Foutopsporing uitschakelen"
+   },
+   "turn_off_live": {
+      "message": "Live foutopsporing uitschakelen"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nDe URL die u heeft opgegeven ($1), bevat een omleiding naar deze pagina. Uit beveiligingsoverwegingen worden sommige omleidingen niet ondersteund in de Optimize-editor.\n\nAls u deze pagina wilt gebruiken in uw experiment, gebruikt u de knop Terug in uw browser om terug te gaan naar Optimize. Vervolgens updatet u de editor-URL met het adres van deze pagina:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Internet"
+   }
+}

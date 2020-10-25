@@ -1,0 +1,120 @@
+<!doctype html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/popup.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+
+</head>
+<body>
+    <header>
+        <div id="tc_header" class="tc_header" style="padding-top: 10px">
+            <nav class="navbar navbar-default navbar-level1" role="navigation">
+                <div class="container-fluid">
+                    <a id="loginlink" class="btn btn-info" href="#"><i class="fa fa-user"></i> &nbsp;Log in</a>
+                    <div class="pull-left">
+                        <img id="DRAGME_253_1" nbbm="253_1" class="tc_header_img" src="https://staticv6.tagcommander.com/layouts/main/images/logo.png?v=5.50.1" border="0" alt="Commanders Act" width="180" height="47">
+                    </div>
+                    <div class="settings pull-right">
+                        <ul class="nav navbar-nav pull-right">
+                            <li id="tc-identifier-user" class="dropdown" data-toggle="popover">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <b class="caret"></b></a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <a id='user-information'> <i class="fa fa-info"></i> &nbsp;You are logged in </a>
+                                    </li>
+                                    <li class="divider"></li>
+                                    <li>
+                                        <a href="http://platform.commandersact.com/logout" id="logout"><i class="fa fa-power-off"></i>&nbsp; Logout</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="login">
+        <h1>Connection</h1>
+        <span id="connection-info"></span>
+        <form name="connection">
+            <input id="connection-name" placeholder="Email" type="text" />
+            <br/>
+            <input id="connection-pass" placeholder="Password" type="password" />
+            <br/>
+            <input id="connexion-submit" class="btn" type="submit" value="Connection"/>
+        </form>
+    </section>
+
+    <section class="content">
+        <div id="tc-left-menu" class="span3 custom-first-child" style="margin-top: 10px">
+            <div id="tag-list" class="well well-small well-color-white">
+                <ul class="nav nav-pills nav-tabs-tc" role="tablist">
+                    <li class="active">
+                        <a href="#tags" data-toggle="tab">Tags</a>
+                    </li>
+                    <li>
+                        <a href="#vars" id="varslink" data-toggle="tab">Vars</a>
+                    </li>
+                    <li>
+                        <a href="#cookies" data-toggle="tab">Cookies</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" id="networkTab" class="dropdown-toggle" data-toggle="dropdown">Network<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="networkTab">
+                          <li><a href="#pixels" id="pixelslink" tabindex="-1" role="tab" data-toggle="tab">Pixels</a></li>
+                          <li><a href="#scripts" id="scriptslink" tabindex="-1" role="tab" data-toggle="tab">Scripts</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="tags">
+                        <ul class="nav nav-list nav-tags" id="tagscontainer">
+                            <li>No tags found</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="vars">
+                        <a id="export" class="btn" href="#">Open in Excel</a>
+                        <div class="nav nav-list nav-vars">
+                            <div class="filters">
+                                <span class="active var-filter" id="vars-all">All vars</span>
+                                <span class="var-filter" id="vars-defined">Defined vars</span>
+                                <span class="var-filter" id="vars-undefined">Undefined vars</span>
+                            </div>
+                            <div id="varscontainer">
+                                No vars found
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="cookies">
+                        <ul class="nav nav-list nav-cookies" id="cookiescontainer">
+                            <li class="active">
+                                No cookies found
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="pixels">
+                        <ul class="nav nav-list nav-cookies" id="cookiescontainer">
+                            <li class="active">
+                                No pixel requests found
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="scripts">
+                        <ul class="nav nav-list nav-cookies" id="cookiescontainer">
+                            <li class="active">
+                                No script requests found
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js" async></script>
+    <script src="js/popup.js" async></script>
+</body>

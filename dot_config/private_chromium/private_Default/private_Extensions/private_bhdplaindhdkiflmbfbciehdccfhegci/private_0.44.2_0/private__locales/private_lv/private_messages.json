@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Atkļūdošana"
+   },
+   "active_live_debug_status": {
+      "message": "Notiek atkļūdošana tiešsaistē"
+   },
+   "active_preview_status": {
+      "message": "Priekšskatīšana"
+   },
+   "check_network": {
+      "message": "Atļaujiet trešās puses sīkfailus no vietnēm optimize.google.com un www.google-analytics.com, pārbaudiet tīkla savienojumu un Satura drošības politiku (https://support.google.com/optimize/answer/7388531) un mēģiniet vēlreiz."
+   },
+   "diff_preview_container": {
+      "message": "Šajā lapā redzamais priekšskatījums atšķiras no tā, kas tika atlasīts priekšskatīšanai eksperimenta informācijas lapā."
+   },
+   "emulation_failure": {
+      "message": "Neizdevās izveidot ierīces emulācijas priekšskatījumu: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Neizdevās priekšskatīt variantu. Lūdzu, iespējojiet sīkfailus un restartējiet pārlūkprogrammu."
+   },
+   "enable_cookies_live": {
+      "message": "Nevar veikt atkļūdošanu tiešsaistē. Lūdzu, iespējojiet sīkfailus un restartējiet pārlūkprogrammu."
+   },
+   "ext_description": {
+      "message": "Atvieglo satura rediģēšanu, izmantojot Google optimizētāju."
+   },
+   "failed_to_load": {
+      "message": "Neizdevās ielādēt Optimizētāja redaktoru."
+   },
+   "help": {
+      "message": "Palīdzība"
+   },
+   "inactive_preview_status": {
+      "message": "Neaktīvs priekšskatījums"
+   },
+   "internal_error": {
+      "message": "Optimizētāja redaktorā bija iekšēja kļūda."
+   },
+   "mobile": {
+      "message": "Mobilā ierīce"
+   },
+   "no_optimize_snippet": {
+      "message": "Šajā lapā nav Optimizētāja fragmenta šim konteineram. Lai priekšskatītu šo lapu un sāktu eksperimentu, pārbaudiet, vai jūsu lapā ir pareizi iestatīts fragments."
+   },
+   "no_preview_status": {
+      "message": "Nav priekšskatījuma"
+   },
+   "no_snippet_status": {
+      "message": "Nav fragmenta"
+   },
+   "not_active_review_page": {
+      "message": "Šī lapa vairs nav aktīva priekšskatījuma lapa. Atkārtoti ielādējiet lapu, lai redzētu aktīvu priekšskatījumu, vai nedariet neko, lai turpinātu skatīt šo variantu."
+   },
+   "not_experiment_page_1": {
+      "message": "Šis paplašinājums ir rīks, kas paredzēts Optimizētāja eksperimenta lapu priekšskatīšanai."
+   },
+   "not_experiment_page_2": {
+      "message": "Pašreizējā lapa netiek priekšskatīta."
+   },
+   "open_optimize": {
+      "message": "Atvērt Google optimizētāju"
+   },
+   "product_name": {
+      "message": "Optimizētājs"
+   },
+   "public_id_missing": {
+      "message": "Šajā lapā nav pareizi ievietots Google optimizētāja fragments konteineram, kura ID ir $1. Google optimizētāja fragmentam ir jābūt ievietotam visās lapās, kuras vēlaties pārbaudīt, lai priekšskatītu variantus vai atkļūdotu konteineru.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Atkārtoti ielādēt"
+   },
+   "tablet": {
+      "message": "Planšetdators"
+   },
+   "turn_off": {
+      "message": "Izslēgt priekšskatījumu"
+   },
+   "turn_off_debug": {
+      "message": "Izslēgt atkļūdošanu"
+   },
+   "turn_off_live": {
+      "message": "Izslēgt atkļūdošanu tiešsaistē"
+   },
+   "url_redirect": {
+      "message": "Google optimizētājs\n\nJūsu ievadītais vietrādis URL:\n$1\nnovirza uz šo lapu. Drošības apsvērumu dēļ dažu veidu novirzīšana Optimizētāja redaktorā netiek atbalstīta.\n\nLai šo lapu lietotu savā eksperimentā, izmantojiet pārlūkprogrammas pogu “Atpakaļ”, lai atgrieztos Optimizētāja logā un atjauninātu redaktora URL, norādot šīs lapas adresi:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Tīmeklis"
+   }
+}

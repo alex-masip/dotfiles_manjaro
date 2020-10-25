@@ -1,0 +1,581 @@
+.glyph {
+    -webkit-mask-image: url(../img/glyphs.png);
+    -webkit-mask-size: 160px 24px;
+    background-color: #5a5a5a;
+    width: 32px;
+    height: 24px;
+    font-size: 0;
+}
+.dev-tools-theme-dark .glyph {
+    background-color: rgb(165, 165, 165);
+}
+.glyph--clear {
+    -webkit-mask-position: -63px 0;
+}
+.glyph--record {
+    -webkit-mask-position: 1px 0px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    .glyph {
+        -webkit-mask-image: url(../img/glyphs-x2.png);
+    }
+}
+
+
+/* UI.Window Styles
+=================================================== */
+
+/* Default styles
+---------------------------------------------------
+
+[1] Ensure the content fills the devtools panel
+[2] Set the cursor so it behaves the same way as other devtools panels
+
+*/
+
+html, body {
+    height: 100%;       /* [1] */
+    margin: 0;          /* [1] */
+    padding: 0;         /* [1] */
+    cursor: default;    /* [2] */
+    font-family: '.SFNSDisplay-Regular', 'Helvetica Neue', 'Lucida Grande', sans-serif
+}
+
+
+/* Global UI state styles
+--------------------------------------------------- */
+
+.state--selected {
+    background-color: rgb(56, 121, 217);
+    color: rgb(255, 255, 255);
+}
+
+.dev-tools-theme-dark .state--selected {
+    background-color: rgb(199, 134, 38) !important;
+    color: black !important;
+}
+
+.state--inactive .state--selected {
+    background-color: rgb(212, 212, 212);
+    color: inherit;
+}
+
+.dev-tools-theme-dark.state--inactive .state--selected {
+    background-color: rgb(57, 57, 57) !important;
+    color: rgb(189, 198, 207) !important;
+}
+
+/* UI.SplitView Control Styles
+=================================================== */
+
+.splitview {
+    box-sizing: border-box;
+}
+
+.splitview {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    height: 100%;
+    overflow: hidden;
+}
+
+.splitview__panel, .splitview__splitter {
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+
+}
+.splitview__panel:not(:first-child) {
+    border-left: 1px solid rgb(64%, 64%, 64%);
+}
+
+.dev-tools-theme-dark .splitview__panel:not(:first-child) {
+    border-left: 1px solid rgb(92, 92, 92);
+}
+
+.splitview__panel--full {
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.splitview__splitter {
+    width: 6px;
+    cursor: ew-resize;
+    margin: -3px;
+    position: relative;
+    z-index: 100;
+}
+
+/* UI.Group Control Styles
+===================================================
+
+[1] allow the borders of the next group header or body to overlap
+[2] prevent clicks from starting a selection
+
+*/
+
+.group__header {
+    background: rgb(240, 240, 240);
+    padding: 0 5px;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    line-height: 21px;
+    margin-bottom: -1px;        /* [1] */
+    -webkit-user-select: none;  /* [2] */
+}
+
+.dev-tools-theme-dark .group__header {
+    background-color: rgb(42, 42, 42);
+    border-color: rgb(54, 54, 54);
+    color: inherit;
+}
+
+.group__header:before {
+    content: "";
+    vertical-align: middle;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-right: 2px;
+    background-color: #888;
+    -webkit-mask-image: url(../img/glyphs.png);
+    -webkit-mask-size: 160px 24px;
+    -webkit-mask-position: -140px -7px;
+}
+
+.dev-tools-theme-dark .group__header:before {
+    background-color: rgb(119, 119, 119)
+}
+
+.group__body {
+    padding: 0 5px;
+}
+
+.group--collapsed .group__header:before {
+    -webkit-mask-position: -108px -7px;
+}
+
+.group--collapsed .group__body {
+    display: none;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1) {
+    .group__header:before {
+        -webkit-mask-image: url(../img/glyphs-x2.png);
+    }
+}
+
+/* UI.PropertyList  Control Styles
+=================================================== */
+
+/* Property styles
+--------------------------------------------------- */
+
+.property {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.property__name, .property__value {
+    font-family: Menlo, monospace;
+    font-size: 11px;
+}
+.property__name {
+    color: #c00;
+    padding: 1px 0;
+}
+.dev-tools-theme-dark .property__name {
+    color: rgb(155, 187, 220);
+}
+.property__name:after {
+    content: ": ";
+    color: #000;
+}
+
+/* properties aren't removed from the DOM, we just hide them to preserve state */
+ .property[hidden] + .property-list {
+    display: none;
+}
+
+/* [1] if a property was a complex type but is now simple we hide the opener and children */
+
+.property:not(.property--object) > .property__opener {
+    display: none; /* [1] */
+}
+
+.property:not(.property--object) + .property-list {
+    display: none; /* [1] */
+}
+
+/* Property types
+--------------------------------------------------- */
+
+.property--boolean {
+    color: #c4f;
+}
+.dev-tools-theme-dark .property--boolean {
+    color: rgb(182, 100, 242);
+}
+.property--object {
+    color: #666;
+}
+.dev-tools-theme-dark .property--object {
+    color: rgb(180, 180, 180);
+}
+.property--number {
+    color: #0c0;
+}
+.dev-tools-theme-dark .property--number {
+    color: rgb(93, 196, 235);
+}
+.property--string {
+    color: #00c;
+}
+.dev-tools-theme-dark .property--string {
+    color: rgb(242, 151, 102);
+}
+.property--string > .property__value:before,
+  .property--string > .property__value:after {
+    content: "\"";
+}
+.property--undefined, .property--null {
+    color: #999;
+}
+
+/* Property List styles
+--------------------------------------------------- */
+
+.property-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.property-list .property-list {
+    padding-left: 14px;
+}
+.property-list .property__opener {
+    margin-right: -14px;
+}
+.property-list .property__name {
+    padding-left: 14px;
+}
+
+/* Opener styles
+---------------------------------------------------
+
+[1] prevent clicks from starting a selection
+
+*/
+
+.property__opener {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #888;
+    -webkit-mask-image: url(../img/glyphs.png);
+    -webkit-mask-size: 160px 24px;
+    -webkit-mask-position: -140px -7px;
+    -webkit-user-select: none;  /* [1] */
+}
+.dev-tools-theme-dark .property__opener {
+    background-color: rgb(119, 119, 119)
+}
+.property--collapsed .property__opener {
+    -webkit-mask-position: -108px -7px;
+}
+.property--collapsed + .property-list {
+    display: none;
+}
+
+@media (min-device-pixel-ratio: 1.5) {
+    .property__opener {
+        -webkit-mask-image: url(../img/glyphs-x2.png);
+    }
+}
+
+/* UI.ItemList  Control Styles
+=================================================== */
+
+/* Item list styles
+--------------------------------------------------- */
+
+.item-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.toolbar {
+    -webkit-user-select: none;
+    border-bottom: 1px solid #dadada;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    padding: 0 2px;
+}
+.dev-tools-theme-dark .toolbar {
+    border-color: rgb(54, 54, 54);
+}
+.toolbar input,
+.toolbar button {
+    font: inherit;
+    outline: none;
+}
+.toolbar__item {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    color: #5a5a5a;
+}
+.dev-tools-theme-dark .toolbar__item {
+    color: rgb(165, 165, 165);
+}
+
+/* labels
+--------------------------------------------------- */
+
+.toolbar__label {
+    margin-left: 5px;
+    margin-right: 3px;
+    color: #888;
+}
+
+
+/* buttons
+--------------------------------------------------- */
+
+.toolbar__button {
+    width: 28px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+}
+.toolbar__button .glyph {
+    margin-left: -3px;
+}
+.toolbar__button .glyph:hover {
+    background-color: #333;
+}
+.dev-tools-theme-dark .toolbar__button .glyph:hover {
+    background-color: rgb(204, 204, 204);
+}
+.toolbar__button--toggled-on .glyph {
+    background-color: rgb(66, 129, 235) !important;
+}
+.toolbar__button--toggled-on .glyph--record {
+    -webkit-mask-position: -31px 0px;
+    background-color: rgb(216, 0, 0) !important;
+}
+.dev-tools-theme-dark .toolbar__button--toggled-on .glyph--record {
+    background-color: hsl(0, 100%, 65%) !important;
+}
+
+/* checkbox
+--------------------------------------------------- */
+
+.toolbar__checkbox {
+    padding: 0 5px 0 2px;
+}
+.toolbar__checkbox input {
+    margin-right: 6px;
+}
+
+/* divider
+--------------------------------------------------- */
+
+.toolbar__divider {
+    background-color: #ccc;
+    width: 1px;
+    margin: 2px 4px;
+    height: 17px;
+}
+.dev-tools-theme-dark .toolbar__divider  {
+    background-color: rgb(61, 61, 61);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+body > .splitview {
+    flex: 1;
+}
+
+.dev-tools-theme-dark {
+    color: rgb(189, 198, 207);
+}
+
+.sidebar {
+    background-color: #eee;
+}
+
+.dev-tools-theme-dark .sidebar {
+    background-color: rgb(42, 42, 42);
+}
+
+.sidebar__title {
+    position: relative;
+    height: 18px;
+    padding: 6px 10px;
+    white-space: nowrap;
+    margin-top: 1px;
+    color: rgb(92, 110, 129);
+    text-shadow: rgba(255, 255, 255, 0.75) 0 1px 0;
+    text-transform: uppercase;
+}
+
+.dev-tools-theme-dark .sidebar__title {
+    color: inherit;
+    text-shadow: rgba(43, 43, 43, 0.81) -1px -2px 0;
+}
+
+/* Hide `undefined` values in the property list */
+.property--undefined {
+    display: none;
+}
+
+
+/* Beacon styles
+--------------------------------------------------- */
+
+.beacon {
+    background-position: 5px 50%;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+
+.beacon--pageview {
+    background-image: url(../img/beacon-pageview.png);
+}
+
+.beacon--event {
+    background-image: url(../img/beacon-event.png);
+}
+
+.beacon--transaction {
+    background-image: url(../img/beacon-transaction.png);
+}
+
+.beacon--social {
+    background-image: url(../img/beacon-social.png);
+}
+
+.beacon--timing {
+    background-image: url(../img/beacon-usertiming.png);
+}
+
+.beacon--item {
+    background-image: url(../img/beacon-transactionitem.png);
+    background-position: 30px 50%;
+    padding-left: 50px;
+}
+
+/* indent anything that's not a pageview if it follows a pageview (so they appear grouped) */
+.beacon--pageview ~ .beacon:not(.beacon--pageview) {
+    background-position: 30px 50%;
+    padding-left: 50px;
+}
+
+/* indent transaction items so they appear nested under transactions */
+.beacon--pageview ~ .beacon.beacon--item {
+    background-position: 55px 50%;
+    padding-left: 75px;
+}
+
+
+/* Tracker list styles
+--------------------------------------------------- */
+
+#tracker-list {
+    min-width: 50px;
+    max-width: 30%;
+    width: 220px;
+}
+
+#tracker-list i {
+    font-style: normal;
+    font-size: 80%;
+    color: #999;
+    display: block;
+}
+
+.dev-tools-theme-dark #tracker-list i {
+    color: rgb(127, 127, 127);
+}
+
+#tracker-list .state--selected i {
+    color: inherit;
+}
+
+.dev-tools-theme-dark #tracker-list .state--selected i {
+    color: inherit;
+}
+
+#tracker-list li {
+    padding: 5px 10px;
+}
+
+.dev-tools-theme-dark #tracker-list li {
+    color: inherit;
+}
+
+
+/* Beacon list styles
+--------------------------------------------------- */
+
+#tracker-data li {
+    margin: 0;
+    border-bottom: 1px solid #dadada;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    line-height: 15px;
+}
+
+.dev-tools-theme-dark #tracker-data li {
+    border-color: rgb(48, 48, 48);
+    color: inherit;
+}
+
+#tracker-data .beacon {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+/* Beacon inspector styles
+--------------------------------------------------- */
+
+#beacon-props {
+    max-width: 60%;
+    min-width: 200px;
+    width: 400px;
+}
+
+#beacon-props .property__name {
+    display: inline-block;
+    width: 14em;
+    font: inherit;
+}
+
+#beacon-props ul:not(:empty) {
+    padding-top:2px;
+    padding-bottom:2px;
+}
+
+/* hide the top border of the first group */
+#beacon-props .group:first-child {
+    margin-top: -1px;
+}

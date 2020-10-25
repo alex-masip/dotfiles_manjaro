@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Derinimas"
+   },
+   "active_live_debug_status": {
+      "message": "Tiesioginis derinimas"
+   },
+   "active_preview_status": {
+      "message": "Peržiūra"
+   },
+   "check_network": {
+      "message": "Įsitikinkite, kad leidžiate trečiosios šalies slapukus iš optimize.google.com ir www.google-analytics.com, patikrinkite tinklo ryšį, ar laikotės turinio saugos politikos (https://support.google.com/optimize/answer/7388531) ir bandykite dar kartą."
+   },
+   "diff_preview_container": {
+      "message": "Peržiūra iš šio puslapio skiriasi nuo pasirinktos peržiūros iš eksperimento išsamios informacijos puslapio."
+   },
+   "emulation_failure": {
+      "message": "Įrenginio emuliacijos peržiūra nepavyko: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Nepavyksta peržiūrėti varianto. Įsitikinkite, kad įgalinote slapukus ir paleiskite naršyklę iš naujo."
+   },
+   "enable_cookies_live": {
+      "message": "Įgalinkite tiesioginį derinimą. Įsitikinkite, kad įgalinote slapukus ir iš naujo paleiskite naršyklę."
+   },
+   "ext_description": {
+      "message": "Palengvina turinio redagavimą naudojant „Google Optimize“."
+   },
+   "failed_to_load": {
+      "message": "Optimizavimo priemonės nepavyko įkelti."
+   },
+   "help": {
+      "message": "Pagalba"
+   },
+   "inactive_preview_status": {
+      "message": "Neaktyvi peržiūra"
+   },
+   "internal_error": {
+      "message": "Įvyko vidinė Optimizavimo priemonės klaida."
+   },
+   "mobile": {
+      "message": "Mobilusis"
+   },
+   "no_optimize_snippet": {
+      "message": "Šiame puslapyje nėra šiam sudėtiniam rodiniui skirto Optimizavimo priemonės fragmento. Jei norite peržiūrėti šį puslapį ir pradėti eksperimentą, patikrinkite, ar fragmentas puslapyje nustatytas tinkamai."
+   },
+   "no_preview_status": {
+      "message": "Nėra peržiūros"
+   },
+   "no_snippet_status": {
+      "message": "Nėra fragmento"
+   },
+   "not_active_review_page": {
+      "message": "Tai nebėra aktyvus peržiūros puslapis. Jei norite aktyvios peržiūros, įkelkite puslapį iš naujo, o jei norite toliau peržiūrėti šį variantą, nedarykite nieko."
+   },
+   "not_experiment_page_1": {
+      "message": "Šis plėtinys yra jūsų Optimizavimo priemonės eksperimento puslapių peržiūros įrankis."
+   },
+   "not_experiment_page_2": {
+      "message": "Dabartinis puslapis neperžiūrimas."
+   },
+   "open_optimize": {
+      "message": "Atidaryti „Google Optimize“"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "Sudėtinio rodinio, kurio ID $1, „Google Optimize“ fragmentas netinkamai įdiegtas šiame puslapyje. Norėdami peržiūrėti funkcijas ar derinti sudėtinį rodinį, įsitikinkite, kad kiekviename puslapyje, kurį norite testuoti, įdiegtas fragmentas.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Įkelti iš naujo"
+   },
+   "tablet": {
+      "message": "Planšetinis kompiuteris"
+   },
+   "turn_off": {
+      "message": "Išjungti peržiūrą"
+   },
+   "turn_off_debug": {
+      "message": "Išjungti derinimą"
+   },
+   "turn_off_live": {
+      "message": "Išjungti tiesioginį derinimą"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nJūsų įvestas URL\n$1\nperadresuoja į šį puslapį. Saugos sumetimais „Optimize“ kai kurių peradresavimų nepalaiko.\n\nJei savo eksperimente norite naudoti šį puslapį, naudokite naršyklės grįžties mygtuką, kad grįžtumėte atgal į „Optimize“ ir pakeistumėte redagavimo priemonės URL šiuo puslapio adresu:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Žiniatinklis"
+   }
+}

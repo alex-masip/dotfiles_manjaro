@@ -1,0 +1,35 @@
+{
+   "background": {
+      "scripts": [ "js/background.js", "js/panelBackground.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon-128.png",
+      "default_popup": "popup.html",
+      "default_title": "Commanders Act Assistant"
+   },
+   "content_scripts": [ {
+      "js": [ "js/jquery.min.js", "js/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "js/jquery.min.js", "js/panelContent.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Commanders Act Assistant helps to troubleshoot TagCommander implementation and more",
+   "devtools_page": "devtools.html",
+   "homepage_url": "http://www.commandersact.com",
+   "icons": {
+      "128": "img/icon-128.png",
+      "16": "img/icon-16.png",
+      "48": "img/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvfV9yaASIpIJncRFhlwvd7RbdHhGAEwrudOQZdkInZEZWYc3h2OL6gVvOFwZxMuUSNmxqARRBEYtro5+Sr2YOfq33O3JzAPKLVOiKrorzV/G0aC7Fo9FfW5G5lmVx7KetH7f7/rbCgGpVIEMbR/Yr5xiEBQ3TqkgTDTLi2dE8ZIFzW//qDDK+yA4lArXYWJo7oZzfYanECgEyIKFkfiXhKSTpQX0qXOCtJx31wyqKx++biXz/5XMyWycQWauXvo9cgcck3nyrOmNlycRuYF2rLjW/xSnsENQU2pvpjTmJ+zA2HZ8rws5uIz2+tO3akf5Etup2DOIkvqHcxhVY2LC+wIDAQAB",
+   "manifest_version": 2,
+   "name": "Commanders Act Assistant",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "webRequest", "webRequestBlocking", "webNavigation", "cookies", "storage", "notifications", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.8",
+   "web_accessible_resources": [ "js/taglistener.js" ]
+}

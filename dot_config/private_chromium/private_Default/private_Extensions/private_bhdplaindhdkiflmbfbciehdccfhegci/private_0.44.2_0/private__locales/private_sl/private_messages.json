@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Odpravljanje napak"
+   },
+   "active_live_debug_status": {
+      "message": "Sprotno odpravljanje napak"
+   },
+   "active_preview_status": {
+      "message": "Predogled"
+   },
+   "check_network": {
+      "message": "Prepričajte se, da dovoljujete piškotke tretjih oseb spletnih mest optimize.google.com in www.google-analytics.com, preverite omrežno povezavo in pravilnik za varnost vsebine (https://support.google.com/optimize/answer/7388531) ter poskusite znova."
+   },
+   "diff_preview_container": {
+      "message": "Predogled na tej strani se razlikuje od predogleda na strani s podrobnostmi preizkusa."
+   },
+   "emulation_failure": {
+      "message": "Predogled emulacije naprave ni uspel: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Predogleda različice ni mogoče prikazati. Omogočite piškotke in znova zaženite brskalnik."
+   },
+   "enable_cookies_live": {
+      "message": "Sprotno odpravljanje napak ni mogoče. Prepričajte se, da so piškotki omogočeni, in znova zaženite brskalnik."
+   },
+   "ext_description": {
+      "message": "Omogoča lažje urejanje vsebine s storitvijo Google Optimize."
+   },
+   "failed_to_load": {
+      "message": "Nalaganje urejevalnika Optimize ni uspelo."
+   },
+   "help": {
+      "message": "Pomoč"
+   },
+   "inactive_preview_status": {
+      "message": "Nedejaven predogled"
+   },
+   "internal_error": {
+      "message": "V urejevalniku Optimize je prišlo do notranje napake."
+   },
+   "mobile": {
+      "message": "Mobilne naprave"
+   },
+   "no_optimize_snippet": {
+      "message": "Ta stran ne vsebuje delčka Optimize za ta vsebnik. Če si želite ogledati predogled te strani in začeti preizkus, preverite, ali je delček pravilno nastavljen na vaši strani."
+   },
+   "no_preview_status": {
+      "message": "Brez predogleda"
+   },
+   "no_snippet_status": {
+      "message": "Delček ni na voljo"
+   },
+   "not_active_review_page": {
+      "message": "Ta stran ni več dejavna stran predogleda. Za ogled dejavnega predogleda jo znova naložite, če si želite še naprej ogledovati to različico, pa vam ni treba storiti ničesar."
+   },
+   "not_experiment_page_1": {
+      "message": "Ta razširitev je orodje za predogled strani preizkusa Optimize."
+   },
+   "not_experiment_page_2": {
+      "message": "Trenutna stran ni v predogledu."
+   },
+   "open_optimize": {
+      "message": "Odpri Google Optimize"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "Delček kode storitve Google Optimize za vsebnik z ID-jem $1 ni pravilno nameščen na to stran. Če si želite ogledati predogled različic ali odpraviti napake vsebnika, se prepričajte, da je delček kode storitve Google Optimize nameščen na vseh straneh, ki jih želite preizkusiti.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Ponovno naloži"
+   },
+   "tablet": {
+      "message": "Tablični računalnik"
+   },
+   "turn_off": {
+      "message": "Izklopi predogled"
+   },
+   "turn_off_debug": {
+      "message": "Izklopi odpravljanje napak"
+   },
+   "turn_off_live": {
+      "message": "Izklopi sprotno odpravljanje napak"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nURL, ki ste ga vnesli:\n$1\npreusmeri na to stran. Zaradi varnosti nekatere preusmeritve niso podprte v urejevalniku Optimize.\n\nČe želite to stran uporabiti v preizkusu, uporabite gumb za vrnitev v brskalniku in pojdite nazaj v Google Optimize ter posodobite URL urejevalnika s tem naslovom strani:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Splet"
+   }
+}

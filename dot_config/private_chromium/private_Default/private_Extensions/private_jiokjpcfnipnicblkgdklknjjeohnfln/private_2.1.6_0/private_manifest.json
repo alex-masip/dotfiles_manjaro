@@ -1,0 +1,16 @@
+{
+   "author": "Keith Clark",
+   "description": "A browser extension for debugging Google Analytics tracking code",
+   "devtools_page": "devtools.html",
+   "homepage_url": "http://github.com/keithclark/gadebugger",
+   "icons": {
+      "128": "img/icon-128.png",
+      "16": "img/icon-16.png",
+      "48": "img/icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkIwKgs//DLFEZSU9RGfEHPAAQjPibymWkfddBE05GmNZ5JQCuM299VVjKF2wUHOB5NsARTEbIy22U4G5e7j8Q7DBYaT7AbOpAFO0n10N27RlSHXmI/noAbzU3vAQPJnh1bYSm8AFFypQ+4Y1Bv9+yztQlsqOGYfuOGAu2m2s6QvX3+MtVYQZ+F2cAEtTA64HDGrsKd9eV5eEMUL8w6sbGdcZnYp5gDXJmDZZH5C4qISouTJA4PLyveFYZg39OgzXvFKe5Zj3OVQi4Ykfgtx0OrTijUCdh72IBC7S2RT4M6yL26spR/5R+OlHAvunihfIPVBgVlwFDRlKuSEGHLFA/wIDAQAB",
+   "manifest_version": 2,
+   "name": "Google Analytics Debugger",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.6"
+}

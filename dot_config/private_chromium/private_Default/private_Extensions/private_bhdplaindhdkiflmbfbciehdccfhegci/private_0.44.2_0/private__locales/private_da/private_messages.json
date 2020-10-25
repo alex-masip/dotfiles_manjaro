@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Fejlretning"
+   },
+   "active_live_debug_status": {
+      "message": "Livefejlretning er aktiveret"
+   },
+   "active_preview_status": {
+      "message": "Forhåndsvisning"
+   },
+   "check_network": {
+      "message": "Sørg for, at du tillader tredjepartscookies fra optimize.google.com og www.google-analytics.com, og tjek din netværksforbindelse samt din CSP-politik (https://support.google.com/optimize/answer/7388531). Prøv derefter igen."
+   },
+   "diff_preview_container": {
+      "message": "Forhåndsvisningen på denne side er forskellig fra den forhåndsvisning, der bruges til at se forhåndsvisninger fra eksperimentdetaljesiden."
+   },
+   "emulation_failure": {
+      "message": "Forhåndsvisning af emuleringsenhed mislykkedes: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Der kan ikke genereres en forhåndsvisning af versionen. Sørg for at aktivere cookies og genstarte browseren."
+   },
+   "enable_cookies_live": {
+      "message": "Livefejlretning kan ikke aktiveres. Sørg for at aktivere cookies og genstarte browseren."
+   },
+   "ext_description": {
+      "message": "Giver mulighed for at redigere indhold med Google Optimize."
+   },
+   "failed_to_load": {
+      "message": "Optimize-redigeringsværktøjet kunne ikke indlæses."
+   },
+   "help": {
+      "message": "Hjælp"
+   },
+   "inactive_preview_status": {
+      "message": "Inaktiv forhåndsvisning"
+   },
+   "internal_error": {
+      "message": "Der opstod en intern fejl i Optimize-redigeringsværktøjet."
+   },
+   "mobile": {
+      "message": "Mobil"
+   },
+   "no_optimize_snippet": {
+      "message": "Denne side har ikke et Optimize-kodestykke til denne container. Hvis du vil se en forhåndsvisning af denne side og starte et eksperiment, skal du tjekke, at kodestykket er konfigureret korrekt på din side."
+   },
+   "no_preview_status": {
+      "message": "Ingen forhåndsvisning"
+   },
+   "no_snippet_status": {
+      "message": "Intet kodestykke"
+   },
+   "not_active_review_page": {
+      "message": "Denne side er ikke længere den aktive forhåndsvisningsside. Genindlæs for at se den aktive forhåndsvisning. Hvis ikke du foretager dig noget, fortsætter du med at se denne variant."
+   },
+   "not_experiment_page_1": {
+      "message": "Denne udvidelse er et værktøj, der kan bruges til at se en forhåndsvisning af dine Optimize-eksperimentsider."
+   },
+   "not_experiment_page_2": {
+      "message": "Der ses ikke et eksempel på den aktuelle side."
+   },
+   "open_optimize": {
+      "message": "Åbn Google Optimize"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "Google Optimize-kodestykket til containeren med id'et $1 er ikke installeret korrekt på denne side. Du kan kun få en forhåndsvisning af versioner og foretage fejlretning vedrørende containeren, hvis Google Optimize-kodestykket er installeret på alle de sider, du vil teste.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Genindlæs"
+   },
+   "tablet": {
+      "message": "Tablet"
+   },
+   "turn_off": {
+      "message": "Slå forhåndsvisning fra"
+   },
+   "turn_off_debug": {
+      "message": "Slå fejlretning fra"
+   },
+   "turn_off_live": {
+      "message": "Slå livefejlretning fra"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nDen indtastede webadresse:\n$1\nomdirigerer til denne side. Af sikkerhedsmæssige årsager er det ikke alle omdirigeringer, der understøttes i Optimize-redigeringsværktøjet.\n\nHvis du vil bruge denne side i dit eksperiment, skal du bruge browserens Tilbage-knap til at gå tilbage til Optimize og opdatere webadressen til redigeringsværktøjet med adressen på denne side:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Web"
+   }
+}

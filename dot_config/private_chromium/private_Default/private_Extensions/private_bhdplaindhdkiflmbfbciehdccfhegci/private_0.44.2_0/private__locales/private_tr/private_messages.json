@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Hata ayıklama"
+   },
+   "active_live_debug_status": {
+      "message": "Canlı Hata Ayıklama Yapılıyor"
+   },
+   "active_preview_status": {
+      "message": "Önizleniyor"
+   },
+   "check_network": {
+      "message": "optimize.google.com ve www.google-analytics.com sitelerindeki üçüncü taraf çerezlere izin verdiğinizden emin olun. Ağ bağlantınızı ve İçerik Güvenliği Politikanızı (https://support.google.com/optimize/answer/7388531) kontrol edip tekrar deneyin."
+   },
+   "diff_preview_container": {
+      "message": "Bu sayfadaki önizleme, deneme bilgileri sayfasından önizleme için seçilenden farklı."
+   },
+   "emulation_failure": {
+      "message": "Cihaz emülasyonunun önizlemesi başarısız oldu: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Deneyim önizlemesi yapılamıyor. Lütfen çerezleri etkinleştirip tarayıcıyı yeniden başlatın."
+   },
+   "enable_cookies_live": {
+      "message": "Canlı hata ayıklama yapılamıyor. Lütfen çerezleri etkinleştirip tarayıcıyı yeniden başlatın."
+   },
+   "ext_description": {
+      "message": "Google Optimize'la içerik düzenlemeyi kolaylaştırır."
+   },
+   "failed_to_load": {
+      "message": "Optimize düzenleyicisi yüklenemedi."
+   },
+   "help": {
+      "message": "Yardım"
+   },
+   "inactive_preview_status": {
+      "message": "Önizleme Devre Dışı"
+   },
+   "internal_error": {
+      "message": "Optimize düzenleyicisinde dahili bir hata oluştu."
+   },
+   "mobile": {
+      "message": "Mobil"
+   },
+   "no_optimize_snippet": {
+      "message": "Bu sayfada, söz konusu kapsayıcı için Optimize snippet'i yok. Sayfayı önizlemek ve bir deneme başlatmak için lütfen sayfanızdaki snippet'in düzgün şekilde ayarlanmış olup olmadığını kontrol edin."
+   },
+   "no_preview_status": {
+      "message": "Önizleme Yok"
+   },
+   "no_snippet_status": {
+      "message": "Snippet Yok"
+   },
+   "not_active_review_page": {
+      "message": "Bu sayfa artık aktif önizleme sayfası değil. Aktif önizlemeyi görmek için yeniden yükleyin veya bu varyasyonu görüntülemeye devam etmek için hiçbir şey yapmayın."
+   },
+   "not_experiment_page_1": {
+      "message": "Bu uzantı, Optimize deneme sayfalarınızı önizlemeye yarayan bir araçtır."
+   },
+   "not_experiment_page_2": {
+      "message": "Geçerli sayfa önizlenmiyor."
+   },
+   "open_optimize": {
+      "message": "Google Optimize'ı aç"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "Google Optimize snippet'ının $1 kimlikli kapsayıcı için sayfaya doğru şekilde yerleştirildiğinden emin olun. Deneyim önizlemesi ve kapsayıcı hata ayıklaması yapmak için Google Optimize snippet'ının test etmek istediğiniz tüm sayfalara yerleştirildiğinden emin olun.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Yeniden yükle"
+   },
+   "tablet": {
+      "message": "Tablet"
+   },
+   "turn_off": {
+      "message": "Önizlemeyi kapat"
+   },
+   "turn_off_debug": {
+      "message": "Hata ayıklamayı kapat"
+   },
+   "turn_off_live": {
+      "message": "Canlı Hata Ayıklamayı Kapat"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nGirdiğiniz URL:\n$1\nbu sayfaya yönlendiriyor. Güvenlik nedeniyle bazı yönlendirmeler Optimize düzenleyicisinde desteklenmiyor.\n\nBu sayfayı denemenizde kullanmak için, Optimize'a geri dönmek üzere tarayıcınızın geri düğmesini kullanın ve Düzenleyici URL'sini şu sayfanın adresiyle güncelleyin:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Web"
+   }
+}

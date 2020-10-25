@@ -1,0 +1,225 @@
+html{
+    width: 500px;
+    height:300px;
+}
+body {
+    font-family: "Lato",Arial;
+    font-weight: 400;
+    line-height: 18px;
+    background-color: #ebebeb;
+    background: #ebebeb;
+    color: #4d4d4d;
+    height: 100%;
+}
+
+h2 {
+    display: inline-block;
+    width: 65px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+h1 {
+    color: #C2C2C2;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+#login {
+    clear: both;
+    display: none;
+}
+
+#login.visible {
+    display: block;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 100%;
+    background: #ebebeb;
+    z-index: 999;
+}
+
+#login h1 {
+    margin-left: 105px;
+	color: #425973;
+}
+#login form {
+    width: 100%;
+    display: block;
+    margin-left: 105px;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+input[type="text"]:active,
+input[type="text"]:focus,
+input[type="password"]:active,
+input[type="password"]:focus {
+    border: 1px solid #999;
+}
+
+input[type="submit"] {
+    background: #f40754;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    padding: 4px 14px;
+}
+
+#connection-info {
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 65px;
+}
+
+
+
+section#manage #manage-content {
+    display: none;
+}
+
+section#manage #manage-content.visible {
+    display: block;
+}
+.tag{
+    list-style-type: none;
+    border-bottom: 1px solid #EEE;
+    padding:2px;
+}
+.containerID {
+    font-weight: bold;
+    margin-left: -20px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    display: block;
+    font-size: 1.2em;
+}
+
+.filters {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.filters span {
+    cursor: pointer;
+    color: #E10075;
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.filters span.active {
+    color: black;
+}
+
+.filters span:hover {
+    color: black;
+}
+
+.well-color-white{
+  background-color:white;
+}
+
+h2.container-name {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.container-wrapper select {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#loginlink {
+    float: right;
+    margin-top: 14px;
+}
+
+#loginlink.connected {
+    color: #ffffff;
+    cursor: default;
+}
+
+#loginlink.connected:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav {
+    position: relative;
+}
+
+#export {
+  position: absolute;
+  right: 40px;
+  top: 130px;
+}
+
+.navbar .nav>li>a{
+    color: #ff3399;
+    text-decoration: none;
+    text-shadow: none;
+}
+.navbar .nav>li>a:focus,.navbar .nav>li>a:hover{background-color:transparent;color:white;text-decoration:none;}
+
+span.containerID {
+    display: inline-block;
+}
+
+select {
+    width: auto;
+    display: inline;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.cookiestable,.variablestab{
+    font-size: 11px;
+}
+
+.restore {
+    margin-left: 10px;
+}
+
+.btn-info {
+color: #f8f8f8;
+background: #3bd3ff;
+background-image: -webkit-linear-gradient(top, #3bd3ff 0, #23c2f0 100%);
+background-image: linear-gradient(to bottom, #3bd3ff 0, #23c2f0 100%);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3bd3ff', endColorstr='#ff23c2f0', GradientType=0);
+}
+
+.nav>li{
+    font-size:14px
+}
+.nav-pills>li>a {
+    padding: 10px 15px;
+}
+.ellipsis {
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+max-width: 370px;
+}
+.networklink{
+    color:grey
+}
+
+.table-striped > tbody > tr:nth-child(even) > td {background-color:#f9f9f9;}
+.table-striped > tbody > tr:nth-child(odd) > td {background-color:#fff;}
+
+#varstable table {
+    margin-bottom: 0;
+}

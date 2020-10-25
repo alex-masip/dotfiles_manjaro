@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "การแก้ไขข้อบกพร่อง"
+   },
+   "active_live_debug_status": {
+      "message": "การแก้ไขข้อบกพร่องแบบเรียลไทม์"
+   },
+   "active_preview_status": {
+      "message": "กำลังแสดงตัวอย่าง"
+   },
+   "check_network": {
+      "message": "โปรดอนุญาตคุกกี้บุคคลที่สามจาก optimize.google.com และ www.google-analytics.com ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตและนโยบาย CPS (https://support.google.com/optimize/answer/7388531) แล้วลองอีกครั้ง"
+   },
+   "diff_preview_container": {
+      "message": "ตัวอย่างในหน้านี้ต่างจากตัวอย่างที่เลือกให้แสดงจากหน้ารายละเอียดการทดสอบ"
+   },
+   "emulation_failure": {
+      "message": "การแสดงตัวอย่างการจำลองอุปกรณ์ล้มเหลว: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "แสดงตัวอย่างประสบการณ์ไม่ได้ โปรดตรวจสอบว่าได้เปิดใช้คุกกี้แล้ว จากนั้นจึงรีสตาร์ทเบราว์เซอร์"
+   },
+   "enable_cookies_live": {
+      "message": "การแก้ไขข้อบกพร่องแบบสดไม่ได้ โปรดตรวจสอบว่าได้เปิดใช้คุกกี้แล้ว จากนั้นจึงรีสตาร์ทเบราว์เซอร์"
+   },
+   "ext_description": {
+      "message": "เพิ่มความสะดวกในการแก้ไขเนื้อหาด้วย Google Optimize"
+   },
+   "failed_to_load": {
+      "message": "ไม่สามารถโหลดตัวแก้ไข Optimize"
+   },
+   "help": {
+      "message": "ความช่วยเหลือ"
+   },
+   "inactive_preview_status": {
+      "message": "หน้าตัวอย่างไม่ทำงาน"
+   },
+   "internal_error": {
+      "message": "ตัวแก้ไข Optimize เกิดข้อผิดพลาดภายใน"
+   },
+   "mobile": {
+      "message": "มือถือ"
+   },
+   "no_optimize_snippet": {
+      "message": "หน้านี้ไม่มีข้อมูลโค้ด Optimize สำหรับคอนเทนเนอร์นี้ โปรดตรวจสอบว่าตั้งค่าข้อมูลโค้ดในหน้านี้ถูกต้องแล้วเพื่อดูตัวอย่างหน้าและเริ่มการทดสอบ"
+   },
+   "no_preview_status": {
+      "message": "ไม่มีตัวอย่าง"
+   },
+   "no_snippet_status": {
+      "message": "ไม่มีข้อมูลโค้ด"
+   },
+   "not_active_review_page": {
+      "message": "หน้านี้ไม่ได้เป็นหน้าตัวอย่างที่ทำงานอยู่อีกต่อไป โหลดซ้ำเพื่อดูหน้าตัวอย่างที่ทำงาน หรือไม่ดำเนินการใดเลยเพื่อดูรูปแบบนี้ต่อไป"
+   },
+   "not_experiment_page_1": {
+      "message": "ส่วนขยายนี้เป็นเครื่องมือแสดงตัวอย่างหน้าการทดสอบ Optimize"
+   },
+   "not_experiment_page_2": {
+      "message": "ไม่มีการแสดงตัวอย่างหน้าปัจจุบัน"
+   },
+   "open_optimize": {
+      "message": "เปิด Google Optimize"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "คุณไม่ได้ติดตั้งตัวอย่างข้อมูล Google Optimize สำหรับคอนเทนเนอร์ที่มีรหัสเป็น $1 ในหน้าเว็บนี้อย่างถูกต้อง โปรดตรวจสอบว่าคุณติดตั้งตัวอย่างข้อมูล Google Optimize ในหน้าที่ต้องการทดสอบแล้วเพื่อแสดงตัวอย่างประสบการณ์หรือแก้ไขข้อบกพร่องของคอนเทนเนอร์",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "โหลดซ้ำ"
+   },
+   "tablet": {
+      "message": "แท็บเล็ต"
+   },
+   "turn_off": {
+      "message": "ปิดหน้าตัวอย่าง"
+   },
+   "turn_off_debug": {
+      "message": "ปิดการแก้ไขข้อบกพร่อง"
+   },
+   "turn_off_live": {
+      "message": "ปิดการแก้ไขข้อบกพร่องแบบเรียลไทม์"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nURL ที่คุณป้อน:\n$1\nเปลี่ยนเส้นทางมาที่หน้านี้ ตัวแก้ไข Optimize อาจไม่รองรับการเปลี่ยนเส้นทางบางรายการเนื่องจากเหตุผลด้านความปลอดภัย\n\nหากต้องการใช้หน้านี้ในการทดสอบ ให้ใช้ปุ่มย้อนกลับในเบราว์เซอร์เพื่อกลับไปยัง Optimize และอัปเดต URL ของตัวแก้ไขด้วยที่อยู่ของหน้านี้:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "เว็บ"
+   }
+}

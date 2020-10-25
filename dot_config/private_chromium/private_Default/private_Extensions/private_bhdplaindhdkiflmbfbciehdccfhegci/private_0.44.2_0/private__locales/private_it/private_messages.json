@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Debug"
+   },
+   "active_live_debug_status": {
+      "message": "Debug in tempo reale"
+   },
+   "active_preview_status": {
+      "message": "Visualizzazione dell'anteprima in corso"
+   },
+   "check_network": {
+      "message": "Accertati di autorizzare i cookie di terze parti di optimize.google.com e www.google-analytics.com, verifica la connessione di rete e le norme CSP (https://support.google.com/optimize/answer/7388531), quindi riprova."
+   },
+   "diff_preview_container": {
+      "message": "L'anteprima visualizzata in questa pagina è diversa da quella selezionata nella pagina dei dettagli dell'esperimento."
+   },
+   "emulation_failure": {
+      "message": "Anteprima dell'emulazione dispositivi non riuscita: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Impossibile visualizzare l'anteprima dell'esperienza. Assicurati di aver attivato i cookie e riavvia il browser."
+   },
+   "enable_cookies_live": {
+      "message": "Impossibile eseguire il debug in tempo reale. Assicurati di aver attivato i cookie e riavvia il browser."
+   },
+   "ext_description": {
+      "message": "Agevola la modifica dei contenuti con Google Optimize."
+   },
+   "failed_to_load": {
+      "message": "Caricamento dell'editor di Optimize non riuscito."
+   },
+   "help": {
+      "message": "Guida"
+   },
+   "inactive_preview_status": {
+      "message": "Anteprima non attiva"
+   },
+   "internal_error": {
+      "message": "Si è verificato un errore interno dell'editor di Optimize."
+   },
+   "mobile": {
+      "message": "Web mobile"
+   },
+   "no_optimize_snippet": {
+      "message": "La pagina non dispone di uno snippet di Optimize per questo contenitore. Per visualizzare l'anteprima della pagina e avviare un esperimento, controlla che lo snippet sia configurato correttamente nella pagina."
+   },
+   "no_preview_status": {
+      "message": "Nessuna anteprima"
+   },
+   "no_snippet_status": {
+      "message": "Nessuno snippet"
+   },
+   "not_active_review_page": {
+      "message": "Questa pagina di anteprima non è più attiva. Ricarica la pagina per visualizzare l'anteprima attiva o non fare nulla per continuare a vedere questa variante."
+   },
+   "not_experiment_page_1": {
+      "message": "Questa estensione consente di visualizzare in anteprima le pagine dell'esperimento di Optimize."
+   },
+   "not_experiment_page_2": {
+      "message": "La pagina corrente non è visualizzata in anteprima."
+   },
+   "open_optimize": {
+      "message": "Apri Google Optimize"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "Lo snippet Google Optimize per il contenitore con ID $1 non è attualmente installato su questa pagina. Per visualizzare l'anteprima delle esperienze o eseguire il debug del contenitore, assicurati che lo snippet Google Optimize sia installato sulle pagine che vuoi verificare.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Ricarica"
+   },
+   "tablet": {
+      "message": "Web per tablet"
+   },
+   "turn_off": {
+      "message": "Disattiva anteprima"
+   },
+   "turn_off_debug": {
+      "message": "Disattiva il debug"
+   },
+   "turn_off_live": {
+      "message": "Disattiva il debug in tempo reale"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nL'URL inserito:\n$1\nreindirizza a questa pagina. Per ragioni di sicurezza, alcuni reindirizzamenti non sono supportati nell'editor di Optimize.\n\nPer includere la pagina nell'esperimento, utilizza il pulsante Indietro del browser per tornare a Optimize e aggiornare l'URL dell'editor con l'indirizzo di questa pagina:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Web per computer desktop"
+   }
+}

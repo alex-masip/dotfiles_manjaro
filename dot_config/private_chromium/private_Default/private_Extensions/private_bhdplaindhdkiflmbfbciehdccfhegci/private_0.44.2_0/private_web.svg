@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1867.000000, -381.000000)" fill-opacity="0.87" fill="#000000">
+            <path d="M1887,381 L1869,381 C1867.895,381 1867,381.895 1867,383 L1867,395 C1867,396.105 1867.895,397 1869,397 L1876,397 L1876,399 L1874,399 L1874,401 L1882,401 L1882,399 L1880,399 L1880,397 L1887,397 C1888.105,397 1889,396.105 1889,395 L1889,383 C1889,381.895 1888.105,381 1887,381 L1887,381 Z M1869,383 L1887,383 L1887,395 L1869,395 L1869,383 Z"></path>
+        </g>
+    </g>
+</svg>

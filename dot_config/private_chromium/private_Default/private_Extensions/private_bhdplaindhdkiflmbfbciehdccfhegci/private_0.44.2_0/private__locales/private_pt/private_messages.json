@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Depuração"
+   },
+   "active_live_debug_status": {
+      "message": "Depurando em tempo real"
+   },
+   "active_preview_status": {
+      "message": "Visualizando"
+   },
+   "check_network": {
+      "message": "Confirme se você autoriza cookies de terceiros de optimize.google.com e www.google-analytics.com, verifique sua conexão de rede, consulte a política de CSP (https://support.google.com/optimize/answer/7388531) e tente novamente."
+   },
+   "diff_preview_container": {
+      "message": "A visualização desta página é diferente daquela selecionada para visualização na página de detalhes do experimento."
+   },
+   "emulation_failure": {
+      "message": "Falha ao visualizar a emulação do dispositivo: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Não é possível visualizar a experiência. Permita cookies e reinicie o navegador."
+   },
+   "enable_cookies_live": {
+      "message": "Não foi possível depurar em tempo real. Lembre-se de ativar os cookies e reiniciar o navegador."
+   },
+   "ext_description": {
+      "message": "Facilita a edição do conteúdo com o Google Optimize."
+   },
+   "failed_to_load": {
+      "message": "Falha ao carregar o editor do Optimize."
+   },
+   "help": {
+      "message": "Ajuda"
+   },
+   "inactive_preview_status": {
+      "message": "Visualização inativa"
+   },
+   "internal_error": {
+      "message": "Ocorreu um erro interno no editor do Optimize."
+   },
+   "mobile": {
+      "message": "Dispositivo móvel"
+   },
+   "no_optimize_snippet": {
+      "message": "Esta página não tem um snippet do Optimize para esse contêiner. Para visualizar essa página e iniciar um experimento, verifique se o snippet da sua página está configurado corretamente."
+   },
+   "no_preview_status": {
+      "message": "Nenhuma visualização"
+   },
+   "no_snippet_status": {
+      "message": "Nenhum snippet"
+   },
+   "not_active_review_page": {
+      "message": "Esta página não é mais a página de visualização ativa. Atualize-a para acessar a visualização ativa ou não faça nada para continuar visualizando essa variação."
+   },
+   "not_experiment_page_1": {
+      "message": "Esta extensão é uma ferramenta para visualizar as páginas do seu experimento do Optimize."
+   },
+   "not_experiment_page_2": {
+      "message": "A página atual não está sendo visualizada."
+   },
+   "open_optimize": {
+      "message": "Abrir o Google Optimize"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "O snippet do Google Optimize para o contêiner $1 não foi instalado corretamente nesta página. Para visualizar experiências ou depurar o contêiner, o snippet do Google Optimize precisa estar instalado em todas as páginas que você quer testar.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Atualizar"
+   },
+   "tablet": {
+      "message": "Tablet"
+   },
+   "turn_off": {
+      "message": "Desativar visualização"
+   },
+   "turn_off_debug": {
+      "message": "Desativar depuração"
+   },
+   "turn_off_live": {
+      "message": "Desativar depuração em tempo real"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nO URL inserido:\n$1\nredireciona para esta página. Por motivos de segurança, alguns redirecionamentos não são permitidos no editor do Optimize.\n\nPara usar essa página no seu experimento, use o botão \"Voltar\" do seu navegador para retornar ao Optimize e atualizar o URL do editor com o endereço desta página:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Web"
+   }
+}

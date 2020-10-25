@@ -1,0 +1,40 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "content_script.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Utilice la extensión para acceder a los contenidos de Movistar+ desde Chrome.",
+   "icons": {
+      "128": "icon_128x128.png",
+      "48": "icon_48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmIfH7Ty2ye36EeDsYmmkqvXCDH4i7wgkKeL3x0ZnkXzTf+zFW+r84YzyNmxjyJO24xB6CWgtAxufY5NGDL8AXXOSu7NkHPQDSUCnyV6w/EzoXihIei4WCnENwqirwyx38V9gONb37gEFqt/+Emmm2eii9+FaiBdqKb8ij+Ye0D1g76lNQzpTtEkdejQUTpOQ8l0d/tRrpwSAMwhc4RUCankC0BtHFKxamUYAK5osl51spt7JCPYlrFgxzQ3nQKHCWcaYO6DyMDYIl+cdCWM5wJTPQsprpiKqq9HC4xWmAHwA+bQzEQL/8Sl+QmbikiizZlupdgmV60QPoSuAUqZ59wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "39.0.2171.71",
+   "nacl_modules": [ {
+      "mime_type": "application/vnd.sog.secureplayer.pepper.plugin",
+      "path": "Player.nmf"
+   } ],
+   "name": "Player para ver Movistar+",
+   "offline_enabled": true,
+   "permissions": [ "unlimitedStorage", "tabs", "power", "system.cpu", "system.display", "storage" ],
+   "platforms": [ {
+      "nacl_arch": "x86-32",
+      "sub_package_path": "_platform_specific/x86-32/"
+   }, {
+      "nacl_arch": "x86-64",
+      "sub_package_path": "_platform_specific/x86-64/"
+   } ],
+   "requirements": {
+      "3D": {
+         "features": [ "webgl" ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.9.3.44",
+   "web_accessible_resources": [ "*" ]
+}

@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "S'està depurant"
+   },
+   "active_live_debug_status": {
+      "message": "S'està depurant el contenidor publicat"
+   },
+   "active_preview_status": {
+      "message": "S'està previsualitzant"
+   },
+   "check_network": {
+      "message": "Assegureu-vos que les galetes de tercers d'optimize.google.com i de www.google-analytics.com, estiguin permeses, comproveu la connexió a la xarxa i la política de seguretat del contingut (https://support.google.com/optimize/answer/7388531) i torneu-ho a provar."
+   },
+   "diff_preview_container": {
+      "message": "La previsualització en aquesta pàgina és diferent de la que heu seleccionat per previsualitzar a la pàgina de detalls de l'experiment."
+   },
+   "emulation_failure": {
+      "message": "S'ha produït un error en previsualitzar l'emulació de dispositius: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "No es pot previsualitzar l'experiència. Comproveu que hàgiu activat les galetes i reinicieu el navegador."
+   },
+   "enable_cookies_live": {
+      "message": "No es pot depurar el contenidor publicat. Comproveu que hàgiu activat les galetes i reinicieu el navegador."
+   },
+   "ext_description": {
+      "message": "Facilita l'edició de contingut amb Google Optimize."
+   },
+   "failed_to_load": {
+      "message": "S'ha produït un error en carregar l'editor d'Optimize."
+   },
+   "help": {
+      "message": "Ajuda"
+   },
+   "inactive_preview_status": {
+      "message": "La previsualització està inactiva"
+   },
+   "internal_error": {
+      "message": "S'ha produït un error intern a l'editor d'Optimize."
+   },
+   "mobile": {
+      "message": "Per a mòbils"
+   },
+   "no_optimize_snippet": {
+      "message": "Aquesta pàgina no té cap fragment d'Optimize per a aquest contenidor. Per previsualitzar-la i iniciar un experiment, comproveu que el fragment estigui ben configurat a la pàgina."
+   },
+   "no_preview_status": {
+      "message": "Cap previsualització"
+   },
+   "no_snippet_status": {
+      "message": "Cap fragment"
+   },
+   "not_active_review_page": {
+      "message": "Aquesta pàgina ja no és una pàgina de previsualització activa. Torneu-la a carregar per veure la previsualització activa o no feu res si voleu seguir veien aquesta variació."
+   },
+   "not_experiment_page_1": {
+      "message": "Aquesta extensió és una eina per previsualitzar les pàgines d'experiment d'Optimize."
+   },
+   "not_experiment_page_2": {
+      "message": "No s'està previsualitzant la pàgina actual."
+   },
+   "open_optimize": {
+      "message": "Obre Google Optimize"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "El fragment de Google Optimize del contenidor amb l'identificador $1 no està instal·lat correctament en aquesta pàgina. Per previsualitzar alguna experiència o depurar el contenidor, comproveu que el fragment de Google Optimize estigui instal·lat en totes les pàgines que vulgueu provar.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Torna a carregar"
+   },
+   "tablet": {
+      "message": "Tauleta"
+   },
+   "turn_off": {
+      "message": "Desactiva la previsualització"
+   },
+   "turn_off_debug": {
+      "message": "Desactiva la depuració"
+   },
+   "turn_off_live": {
+      "message": "Desactiva la depuració de contenidors publicats"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nL'URL que heu introduït és\n$1\ni redirigeix a aquesta pàgina. Per motius de seguretat, l'editor d'Optimize no es compatible amb algunes redireccions.\n\nPer utilitzar aquesta pàgina amb el vostre experiment, utilitzeu el botó Enrere del navegador per tornar a Optimize. A continuació, actualitzeu l'URL de l'editor amb l'adreça d'aquesta pàgina:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Web per a ordinadors"
+   }
+}

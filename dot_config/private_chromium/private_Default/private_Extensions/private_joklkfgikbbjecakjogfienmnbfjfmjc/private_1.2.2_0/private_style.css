@@ -1,0 +1,58 @@
+html, body {
+  font-family: Arial;
+  font-size: 12px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 305px;
+  color: #26acf5;
+  overflow-x: hidden;
+}
+
+pre {
+	margin: 0;
+	padding: 0;
+}
+
+#main{
+	float:left;
+	width: 100%;
+}
+
+#libraries {
+	width: 100%;
+	float:left;
+	font-size: 15px;
+	padding: 12px 0 10px 15px !important;
+	background: #d4eefd;
+	margin-bottom: 15px;
+}
+
+.adfClient{
+	width: 100%;
+	float:left;
+	padding-left: 15px;
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #d4eefd;
+}
+
+.adfDiv{
+	width: 100%;
+	float:left;
+}
+
+.adfBold{
+	float: left;
+	font-weight: bold;
+}
+
+.adfValue{
+	margin-left: 5px;
+	float:left;
+}
+
+.adfVars {
+	float:left;
+	padding-left: 5px;
+}

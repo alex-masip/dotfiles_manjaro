@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "디버깅"
+   },
+   "active_live_debug_status": {
+      "message": "실시간 디버그 사용 중"
+   },
+   "active_preview_status": {
+      "message": "미리보기"
+   },
+   "check_network": {
+      "message": "optimize.google.com 및 www.google-analytics.com의 타사 쿠키를 허용하도록 설정했는지와 네트워크 연결 상태를 확인하고, CSP 정책(https://support.google.com/optimize/answer/7388531)을 검토한 후 다시 시도하세요."
+   },
+   "diff_preview_container": {
+      "message": "이 페이지의 미리보기는 실험 세부정보 페이지에서 선택한 미리보기와 다릅니다."
+   },
+   "emulation_failure": {
+      "message": "기기 에뮬레이션 미리보기 실패: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "실험을 미리 볼 수 없습니다. 쿠키를 허용했는지 확인한 후 브라우저를 다시 시작하세요."
+   },
+   "enable_cookies_live": {
+      "message": "실시간 디버그를 사용할 수 없습니다. 쿠키를 허용했는지 확인한 후 브라우저를 다시 시작하세요."
+   },
+   "ext_description": {
+      "message": "Google 최적화 도구로 콘텐츠를 쉽게 수정할 수 있습니다."
+   },
+   "failed_to_load": {
+      "message": "최적화 도구 편집기를 로드하지 못했습니다."
+   },
+   "help": {
+      "message": "도움말"
+   },
+   "inactive_preview_status": {
+      "message": "비활성화된 미리보기"
+   },
+   "internal_error": {
+      "message": "최적화 도구 편집기에 내부 오류가 발생했습니다."
+   },
+   "mobile": {
+      "message": "모바일"
+   },
+   "no_optimize_snippet": {
+      "message": "이 컨테이너에 최적화 도구 스니펫이 없는 페이지입니다. 이 페이지를 미리보고 실험을 시작하려면 페이지에 스니펫이 제대로 설정되었는지 확인하세요."
+   },
+   "no_preview_status": {
+      "message": "미리보기 없음"
+   },
+   "no_snippet_status": {
+      "message": "스니펫 없음"
+   },
+   "not_active_review_page": {
+      "message": "비활성화된 미리보기 페이지입니다. 활성화된 미리보기를 표시하려면 새로고침하고 대안 페이지를 계속 보려면 새로고침하지 마세요."
+   },
+   "not_experiment_page_1": {
+      "message": "이 확장 프로그램은 최적화 도구 실험 페이지를 미리볼 수 있는 도구입니다."
+   },
+   "not_experiment_page_2": {
+      "message": "현재 페이지는 미리보기가 지원되지 않습니다."
+   },
+   "open_optimize": {
+      "message": "Google 최적화 도구 열기"
+   },
+   "product_name": {
+      "message": "최적화"
+   },
+   "public_id_missing": {
+      "message": "ID가 $1인 컨테이너의 Google 최적화 도구 스니펫이 이 페이지에 제대로 설치되지 않았습니다. 실험을 미리 보거나 컨테이너를 디버그하려면 테스트할 모든 페이지에 Google 최적화 도구 스니펫을 설치해야 합니다.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "새로고침"
+   },
+   "tablet": {
+      "message": "태블릿"
+   },
+   "turn_off": {
+      "message": "미리보기 해제"
+   },
+   "turn_off_debug": {
+      "message": "디버그 사용 중지"
+   },
+   "turn_off_live": {
+      "message": "실시간 디버그 사용 중지"
+   },
+   "url_redirect": {
+      "message": "Google 최적화 도구\n\n입력한 URL:\n$1\n위 URL은 이 페이지로 리디렉션됩니다. 보안상의 이유로 일부 리디렉션은 최적화 도구 편집기에서 지원되지 않습니다.\n\n이 페이지를 실험에 사용하려면 브라우저의 뒤로 버튼을 이용해 최적화 도구로 돌아간 후 이 페이지 주소로 편집기 URL을 업데이트하세요.\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "웹"
+   }
+}

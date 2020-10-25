@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <div class="alert alert-info app-no-login-in sign-on hide">
+        <img src="../img/info-circle.png" alt="info">
+        <span>You need to sign on your Commanders Act account</span>
+    </div>
+    <div class="app hide">
+        <div class="tc-navbar-main">
+            <ul>
+                <li data-tab="event-listener">
+                    <img src="../img/event-listener.svg" alt="event-listener">
+                    <a href="#">Event listener</a>
+                </li>
+                <li data-tab="event-targeter">
+                    <img src="../img/event-targeter.svg" alt="event-targeter">
+                    <a href="#">Event targeter</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tc-container-event-listener tc-container">
+            <div class="div-tc-container">
+                <div class="div-list-event">
+                    <div class="div-list-event-top">
+                        <span>EVENT LIST</span>
+                        <a href="#" class="clear-events">
+                            <img src="../img/clear-all.svg" alt="clear-events">
+                        </a>
+                         <a href="#" class="settings" data-tab="settings">
+                            <img src="../img/options.svg" alt="settings">
+                        </a>
+                    </div>
+
+                    <div class="div-list-event-body">
+                        <input type="hidden" name="total_items" value="0">
+                        <nav class="nav list-event">
+                            <ul>
+                                <li class="sample hide">
+                                    <a href="#" class="events-item">
+                                        <span class="event-num"></span>.
+                                        <span>Auto-event</span>
+                                        <span class="event-type"></span>&nbsp;
+                                        <span class="rond"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                
+                <div class="div-drag drag-handle">
+                    <div class="drag-handle-border"></div>
+                </div>
+
+                <div class="div-container">
+                    <div class="div-container-top">
+                        <div class="tc-navbar">
+                            <ul>
+                                <li class="active"><a href="#" role="tab" data-panel="datalayer" data-panel-parent="event-listener">DATA LAYER</a></li>
+                                <li><a href="#" role="tab" data-panel="tags" data-panel-parent="event-listener">TRIGGERS & TAGS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="div-container-body">
+                        <div class="tab-event-listener tab-event">
+                            <div id="datalayer" class="tab-pane fade" role="tabpanel">
+                                <div class="text-attributes">Attributes of listened events:</div>
+                                <div class="el-info sample hide">
+                                    <span class="attr"></span> = "<span class="info"></span>" <span class="unit"></span>
+                                </div>
+                            </div>
+                            <div id="tags" class="tab-pane fade hide" role="tabpanel">
+                                <div class="no-triggers">No trigger and no tag is detected on this event.</div>
+                                <div class="all-triggers"></div>
+                            </div>
+                        </div>
+
+                        <div class="tab-settings tab-event hide">
+                            <div class="text-settings">The type of events you want to display in the console:</div>
+                            <div class="all-settings">
+                                <div><input type="checkbox" name="event-settings" value="custom" checked="checkbox" disabled="disabled">custom</div>
+                                <div><input type="checkbox" name="event-settings" value="click" checked="checked">click</div>
+                                <div><input type="checkbox" name="event-settings" value="form" checked="checked">form submission</div>
+                                <div>
+                                    <input type="checkbox" name="event-settings" value="scroll-y">vertical scroll
+                                    <input type="text" name="scroll-y-value" class="scroll-y">
+                                    <select name="scroll-y-unit">
+                                        <option value="percent">percent</option>
+                                        <option value="pixels">pixels</option>
+                                    </select>
+                                    <span class="error-msg error-msg-scroll-y hide">Vertical scroll value is not correct.</span>
+                                </div>
+                                 <div>
+                                    <input type="checkbox" name="event-settings" value="scroll-x">horizontal scroll
+                                    <input type="text" name="scroll-x-value" class="scroll-x">
+                                    <select name="scroll-x-unit">
+                                        <option value="percent">percent</option>
+                                        <option value="pixels">pixels</option>
+                                    </select>
+                                    <span class="error-msg error-msg-scroll-x hide">Horizontal scroll value is not correct.</span>
+                                </div>
+
+                                <div class="triggers-events">
+                                    <input type="checkbox" name="event-settings" value="triggers-events">
+                                    <span>Show only events with tags associated (<span class="rond"></span>)</span>
+                                </div>
+                            </div>
+                            <div class="div-save">
+                                <button type="button" class="save">Save</button>
+                                <span class="success-msg hide">Your settings have been saved.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tc-container-event-targeter tc-container hide">
+            <div class="div-container-body">
+                <div class="tab-event-targeter">
+                    <div class="text-attributes">Work in progress</div>
+                    <!-- These comments will be used later to create the "Event targeter" tab -->
+                    <!-- <div class="text-attributes">Attributes of the targeted event:</div>
+                    <div class="el-info el-nodename sample">
+                        <span>element</span> = "<span class="info"></span>"
+                    </div>
+                    <div class="el-info el-class sample" >
+                        <span>class</span> = "<span class="info"></span>"
+                    </div>
+                    <div class="el-info el-id sample">
+                        <span>id</span> = "<span class="info"></span>"
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/panel.js"></script>
+</body>
+</html>

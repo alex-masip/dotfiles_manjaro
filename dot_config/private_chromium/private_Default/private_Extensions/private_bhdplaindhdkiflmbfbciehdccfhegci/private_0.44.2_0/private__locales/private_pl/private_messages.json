@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Debugowanie"
+   },
+   "active_live_debug_status": {
+      "message": "Debugowanie na żywo"
+   },
+   "active_preview_status": {
+      "message": "Wyświetlam podgląd"
+   },
+   "check_network": {
+      "message": "Sprawdź połączenie z internetem oraz ustawienia CSP (https://support.google.com/optimize/answer/7388531) i zezwól na używanie plików cookie innych firm w witrynach optimize.google.com i www.google-analytics.com, a następnie spróbuj ponownie."
+   },
+   "diff_preview_container": {
+      "message": "Wyświetlasz podgląd strony innej niż wybrana do wyświetlenia w eksperymencie."
+   },
+   "emulation_failure": {
+      "message": "Nie można wyświetlić podglądu emulacji urządzenia: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Nie można wyświetlić podglądu doświadczenia. Włącz obsługę plików cookie i ponownie uruchom przeglądarkę."
+   },
+   "enable_cookies_live": {
+      "message": "Nie można przeprowadzić debugowania na żywo. Włącz obsługę plików cookie i ponownie uruchom przeglądarkę."
+   },
+   "ext_description": {
+      "message": "Ułatwia edytowanie treści w Google Optimize."
+   },
+   "failed_to_load": {
+      "message": "Nie udało się wczytać edytora Optymalizacji."
+   },
+   "help": {
+      "message": "Pomoc"
+   },
+   "inactive_preview_status": {
+      "message": "Podgląd nieaktywny"
+   },
+   "internal_error": {
+      "message": "W edytorze Optymalizacji wystąpił błąd wewnętrzny."
+   },
+   "mobile": {
+      "message": "Telefon komórkowy"
+   },
+   "no_optimize_snippet": {
+      "message": "Na tej stronie nie ma fragmentu kodu Optymalizacji, którego można użyć w tym kontenerze. Aby wyświetlić podgląd tej strony i rozpocząć eksperyment, sprawdź, czy fragment kodu na stronie jest prawidłowo skonfigurowany."
+   },
+   "no_preview_status": {
+      "message": "Brak podglądu"
+   },
+   "no_snippet_status": {
+      "message": "Brak fragmentu kodu"
+   },
+   "not_active_review_page": {
+      "message": "Ta strona nie jest już wyświetlana w podglądzie aktywnym. Wczytaj ją ponownie, by wyświetlić podgląd aktywny, a jeśli chcesz dalej wyświetlać tę odmianę, nie musisz nic robić."
+   },
+   "not_experiment_page_1": {
+      "message": "To rozszerzenie służy do wyświetlania podglądu stron eksperymentu w Optymalizacji."
+   },
+   "not_experiment_page_2": {
+      "message": "Nie wyświetlamy podglądu bieżącej strony."
+   },
+   "open_optimize": {
+      "message": "Włącz Google Optimize"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "Fragment kodu Google Optimize dla kontenera z identyfikatorem $1 nie jest prawidłowo zainstalowany na tej stronie. Aby móc wyświetlać podgląd eksperymentów lub przeprowadzić debugowanie kontenera, zainstaluj fragment kodu Google Optimize na wszystkich stronach, które chcesz przetestować.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Wczytaj ponownie"
+   },
+   "tablet": {
+      "message": "Tablet"
+   },
+   "turn_off": {
+      "message": "Wyłącz podgląd"
+   },
+   "turn_off_debug": {
+      "message": "Wyłącz debugowanie"
+   },
+   "turn_off_live": {
+      "message": "Wyłącz debugowanie na żywo"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nWpisany URL:\n$1\nprzekierowuje do tej strony. Ze względów bezpieczeństwa edytor Google Optimize nie obsługuje niektórych przekierowań.\n\nAby użyć tej strony w eksperymencie, wróć w przeglądarce do Google Optimize i zamień URL edytora na adres tej strony:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Komputer"
+   }
+}

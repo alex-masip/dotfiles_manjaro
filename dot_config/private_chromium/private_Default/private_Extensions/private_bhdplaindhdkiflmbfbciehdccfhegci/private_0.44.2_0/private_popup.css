@@ -1,0 +1,145 @@
+
+body {
+  background-color: #F8F9FA; /** @opt-material-gray-50 */
+  width: 300px;
+  font-family: Roboto, 'Helvetica Neue' , sans-serif;
+}
+
+#dialog {
+  margin: 20px 18px;
+}
+
+#header {
+  border-bottom: 1px solid #DADCE0; /** @opt-material-gray-300 */
+}
+
+#container-name {
+  font-size: 11px;
+  opacity: 0.54;
+}
+
+#experiment-name {
+  line-height: 25px;
+  font-size: 11px;
+  opacity: 0.54;
+}
+
+#variation-preview {
+  line-height: 30px;
+}
+
+#variation-name {
+  font-size: 15px;
+  opacity: 0.87;
+  float: left;
+  max-width: 60%;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#preview-status {
+  margin-left: 60%;
+  font-size: 13px;
+  text-align: right;
+}
+
+#header-logo {
+  color: rgba(0,0,0,0.54); /** @opt-black-rgba-3 */
+  font: 400 22px 'Product Sans' , Arial , Helvetica , sans-serif;
+  margin: 4px 0;
+}
+
+.lockup-logo {
+  background-image: url(https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_dark_color_74x24dp.png);
+  opacity: .54;
+  width: 74px;
+  height: 24px;
+  -webkit-background-size: 74px 24px;
+  background-size: 74px 24px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+hr {
+  opacity: 0.54;
+  margin: 7px 0px;
+}
+
+.detail {
+  font-size: 13px;
+  margin-bottom: 20px;
+  opacity: 0.87;
+}
+
+.goog-accent {
+  color: #a142f4; /** @opt-accent-color */
+}
+
+.goog-primary {
+  color: #1A73E8; /** @opt-primary-color */
+}
+
+.link {
+  font-size: 13px;
+  text-decoration: none;
+  outline: 0;
+}
+
+.button {
+  margin-top: 10px;
+  font-size: 13px;
+  background-color: #1A73E8; /** @opt-primary-color */
+  color: white;
+  padding: 13px 0px;
+  display: block;
+  cursor: pointer;
+  border-style: none;
+  width: 100%;
+  outline: none;
+}
+
+#device-list {
+  margin-top: 14px;
+}
+
+.device-row {
+  height: 40px;
+  display: block;
+  opacity: 0.54;
+  text-decoration: none;
+  transition: background-color 0.4s ease;
+}
+
+.device-row:hover {
+  background-color: #DADCE0; /** @opt-material-gray-300 */
+  opacity: 0.87;
+}
+
+.selected {
+  background-color: #DADCE0; /** @opt-material-gray-300 */
+}
+
+.device-row-content {
+  padding: 0px 12px;
+  line-height: 40px;
+}
+
+.icon-container {
+  float: left;
+  width: 10%;
+  text-align: center;
+}
+
+.device-icon {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.icon-type {
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 15px;
+  color: black;
+}

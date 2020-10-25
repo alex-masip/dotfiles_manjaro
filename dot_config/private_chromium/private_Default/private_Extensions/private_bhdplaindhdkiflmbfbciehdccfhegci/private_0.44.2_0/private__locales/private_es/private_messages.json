@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Depurando"
+   },
+   "active_live_debug_status": {
+      "message": "Depuración en tiempo real"
+   },
+   "active_preview_status": {
+      "message": "Se está creando la vista previa"
+   },
+   "check_network": {
+      "message": "Habilite las cookies de terceros de optimize.google.com y www.google-analytics.com, compruebe su conexión de red y consulte la política seguridad del contenido (https://support.google.com/optimize/answer/7388531) antes de intentarlo de nuevo."
+   },
+   "diff_preview_container": {
+      "message": "La vista previa de esta página es distinta de la seleccionada en la página de detalles del experimento."
+   },
+   "emulation_failure": {
+      "message": "No se ha podido obtener la vista previa de la emulación de dispositivo: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "No se puede obtener una vista previa de la experiencia. Habilite las cookies y reinicie el navegador."
+   },
+   "enable_cookies_live": {
+      "message": "No se puede iniciar la depuración en tiempo real. Habilite las cookies y reinicie el navegador."
+   },
+   "ext_description": {
+      "message": "Facilita la edición de contenido con Google Optimize."
+   },
+   "failed_to_load": {
+      "message": "No se ha podido cargar el editor de Optimize."
+   },
+   "help": {
+      "message": "Ayuda"
+   },
+   "inactive_preview_status": {
+      "message": "Vista previa inactiva"
+   },
+   "internal_error": {
+      "message": "Se ha producido un error interno en el editor de Optimize."
+   },
+   "mobile": {
+      "message": "Móvil"
+   },
+   "no_optimize_snippet": {
+      "message": "Esta página no tiene un fragmento de Optimize para este contenedor. Si quiere obtener una vista previa de esta página e iniciar un experimento, compruebe que la página tenga el fragmento configurado correctamente."
+   },
+   "no_preview_status": {
+      "message": "Sin vista previa"
+   },
+   "no_snippet_status": {
+      "message": "No hay fragmento"
+   },
+   "not_active_review_page": {
+      "message": "Esta página ya no es la de vista previa activa. Vuelva a cargarla para obtener la vista previa activa o no haga nada para seguir viendo esta variación."
+   },
+   "not_experiment_page_1": {
+      "message": "Esta extensión es una herramienta para obtener una vista previa de las páginas de experimento de Optimize."
+   },
+   "not_experiment_page_2": {
+      "message": "No se está mostrando la vista previa de la página actual."
+   },
+   "open_optimize": {
+      "message": "Abrir Google Optimize"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "El fragmento de Google Optimize del contenedor con ID $1 no está instalado correctamente en esta página. Para obtener vistas previas de las experiencias o depurar el contenedor, el fragmento de Google Optimize debe todas las páginas que quiera probar.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Volver a cargar"
+   },
+   "tablet": {
+      "message": "Tablets"
+   },
+   "turn_off": {
+      "message": "Desactivar la vista previa"
+   },
+   "turn_off_debug": {
+      "message": "Desactivar Depurar"
+   },
+   "turn_off_live": {
+      "message": "Desactivar depuración en tiempo real"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nLa URL que ha introducido,\n$1,\nredirecciona a esta página. Por motivos de seguridad, es posible que el editor de Optimize no admita algunos redireccionamientos.\n\nSi quiere usar esta página en el experimento, utilice el botón Atrás del navegador para volver a Optimize y actualizar la URL del editor con la dirección de esta página:\n$2.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Web"
+   }
+}

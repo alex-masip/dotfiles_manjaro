@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Hibakeresés"
+   },
+   "active_live_debug_status": {
+      "message": "Élő hibaelhárítás"
+   },
+   "active_preview_status": {
+      "message": "Előnézet"
+   },
+   "check_network": {
+      "message": "Engedélyezze a harmadik féltől származó cookie-kat az optimize.google.com és a www.google-analytics.com oldalról, ellenőrizze a hálózati kapcsolatot, valamint azt, hogy betartja-e a tartalombiztonsági irányelvek (https://support.google.com/optimize/answer/7388531) előírásait, majd próbálja meg újra."
+   },
+   "diff_preview_container": {
+      "message": "Az ezen az oldalon látható előnézet eltér attól, amely a kísérlet részletes oldalán előnézet céljából ki van választva."
+   },
+   "emulation_failure": {
+      "message": "Az eszközemuláció előnézete nem sikerült: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "A kísérlet előnézete nem jeleníthető meg. Győződjön meg arról, hogy engedélyezve vannak a cookie-k, és indítsa újra a böngészőt."
+   },
+   "enable_cookies_live": {
+      "message": "Nem végezhető élő hibaelhárítás. Győződjön meg arról, hogy engedélyezve vannak a cookie-k, és indítsa újra a böngészőt."
+   },
+   "ext_description": {
+      "message": "Megkönnyíti a tartalmak Google Optimize-zal való szerkesztését"
+   },
+   "failed_to_load": {
+      "message": "Az Optimize szerkesztő betöltése nem sikerült."
+   },
+   "help": {
+      "message": "Súgó"
+   },
+   "inactive_preview_status": {
+      "message": "Inaktív előnézet"
+   },
+   "internal_error": {
+      "message": "Az Optimize szerkesztőben belső hiba történt."
+   },
+   "mobile": {
+      "message": "Mobil"
+   },
+   "no_optimize_snippet": {
+      "message": "Ezen az oldalon nincs Optimize-kódrészlet ehhez a tárolóhoz. Az oldal előnézetének megtekintéséhez és kísérlet megkezdéséhez ellenőrizze, hogy az oldalon megfelelően van-e beállítva a kódrészlet."
+   },
+   "no_preview_status": {
+      "message": "Nincs előnézet"
+   },
+   "no_snippet_status": {
+      "message": "Nincs kódrészlet"
+   },
+   "not_active_review_page": {
+      "message": "Már nem ez az aktív előnézeti oldal. Az aktív előnézet megtekintéséhez töltse be újra, ha pedig továbbra is ezt a változatot szeretné megtekinteni, további megjelenítéséhez  ne tegyen semmit."
+   },
+   "not_experiment_page_1": {
+      "message": "Ez a bővítmény az Optimize kísérleti oldalak előnézetének megtekintésére szolgál."
+   },
+   "not_experiment_page_2": {
+      "message": "Az aktuális oldal előnézete jelenleg nem jelenik meg."
+   },
+   "open_optimize": {
+      "message": "Google Optimize megnyitása"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "A(z) $1 azonosítójú tároló Google Optimize-kódrészlete nincs megfelelően telepítve ezen az oldalon.  Ha meg szeretné tekinteni a kísérletek előnézetét, vagy el szeretné hárítani a tároló hibáit, győződjön meg róla, hogy beillesztette a Google Optimize-kódrészletet minden tesztelni kívánt oldalra.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Újratöltés"
+   },
+   "tablet": {
+      "message": "Táblagép"
+   },
+   "turn_off": {
+      "message": "Előnézet kikapcsolása"
+   },
+   "turn_off_debug": {
+      "message": "Hibakeresés kikapcsolása"
+   },
+   "turn_off_live": {
+      "message": "Élő hibaelhárítás kikapcsolása"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nA megadott URL\n($1)\nerre az oldalra mutató átirányítást tartalmaz. Egyes átirányításokat a Google Optimize szerkesztő biztonsági okokból nem támogat.\n\nHa az oldalt a kísérletben fel szeretné használni, lépjen vissza a böngésző Vissza gombjával a Google Optimize-hoz, és frissítse a Szerkesztő URL-jét az alábbi oldalcímmel:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Internet"
+   }
+}

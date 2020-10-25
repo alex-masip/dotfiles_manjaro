@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Felsökning"
+   },
+   "active_live_debug_status": {
+      "message": "Felsökning i realtid"
+   },
+   "active_preview_status": {
+      "message": "Förhandsgranskning"
+   },
+   "check_network": {
+      "message": "Kontrollera att du tillåter tredjepartscookies från optimize.google.com och www.google-analytics.com. Kontrollera också nätverksanslutningen samt innehållssäkerhetspolicyn (https://support.google.com/optimize/answer/7388531) och försök igen."
+   },
+   "diff_preview_container": {
+      "message": "Förhandsgranskningen på sidan är inte samma som valdes som förhandsgranskning på experimentinformationssidan."
+   },
+   "emulation_failure": {
+      "message": "Förhandsgranskningen av enhetsemuleringen misslyckades: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Det går inte att förhandsgranska upplevelsen. Kontrollera att cookies är aktiverade och starta om webbläsaren."
+   },
+   "enable_cookies_live": {
+      "message": "Det går inte att felsöka i realtid. Se till att cookies är aktiverade och starta sedan om webbläsaren."
+   },
+   "ext_description": {
+      "message": "Underlättar redigering av innehåll med Google Optimize."
+   },
+   "failed_to_load": {
+      "message": "Redigeraren för Optimize gick inte att läsa in."
+   },
+   "help": {
+      "message": "Hjälp"
+   },
+   "inactive_preview_status": {
+      "message": "Inaktiv förhandsgranskning"
+   },
+   "internal_error": {
+      "message": "Ett internt fel uppstod i Optimize-redigeraren."
+   },
+   "mobile": {
+      "message": "Mobil"
+   },
+   "no_optimize_snippet": {
+      "message": "Sidan innehåller inget kodavsnitt för Optimize för den här behållaren. Om du vill förhandsgranska sidan och starta ett experiment ska du först kontrollera att kodavsnittet på sidan har installerats."
+   },
+   "no_preview_status": {
+      "message": "Ingen förhandsgranskning"
+   },
+   "no_snippet_status": {
+      "message": "Inget kodavsnitt"
+   },
+   "not_active_review_page": {
+      "message": "Sidan är inte längre den aktiva förhandsgranskningssidan. Läs in den igen om du vill se den aktiva förhandsgranskningen eller gör ingenting om du vill fortsätta visa den här varianten."
+   },
+   "not_experiment_page_1": {
+      "message": "Tillägget är ett verktyg för förhandsgranskning av experimentsidorna för Optimize."
+   },
+   "not_experiment_page_2": {
+      "message": "Den aktuella sidan förhandsgranskas inte."
+   },
+   "open_optimize": {
+      "message": "Öppna Google Optimize"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "Google Optimize-kodavsnittet för behållaren med id $1 har inte installerats korrekt på sidan. Om du vill förhandsgranska upplevelser eller felsöka behållaren ser du till att Google Optimize-kodavsnittet har installerats på alla sidor som du vill testa.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Läs in igen"
+   },
+   "tablet": {
+      "message": "Surfplatta"
+   },
+   "turn_off": {
+      "message": "Stäng förhandsgranskning"
+   },
+   "turn_off_debug": {
+      "message": "Inaktivera felsökning"
+   },
+   "turn_off_live": {
+      "message": "Inaktivera felsökning i realtid"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nWebbadressen du har angett,\n$1,\nomdirigerar till den här sidan. Av säkerhetsskäl går det inte att använda vissa omdirigeringar i redigeraren för Optimize.\n\nOm du vill använda den här sidan i experimentet återgår du till Optimize via webbläsarens bakåtknapp och uppdaterar webbadressen för redigeraren till adressen:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Webb"
+   }
+}

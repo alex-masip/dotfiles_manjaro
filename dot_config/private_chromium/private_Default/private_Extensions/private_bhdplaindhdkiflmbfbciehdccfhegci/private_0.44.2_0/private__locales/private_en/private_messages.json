@@ -1,0 +1,146 @@
+{
+   "active_debug_status": {
+      "description": "The status we display when they are actively previewing an experiment",
+      "message": "Debugging"
+   },
+   "active_live_debug_status": {
+      "description": "The status we display when they are actively debugging a live container",
+      "message": "Debugging Live"
+   },
+   "active_preview_status": {
+      "description": "The status we display when they are actively previewing an experiment",
+      "message": "Previewing"
+   },
+   "check_network": {
+      "description": "Notification to the user that they should check the network connection in order to verify that the catch-all error isn't because they aren't connected to the internet, or block third-party cookies from the optimize.google.com site, or blocked by site CSP policy.",
+      "message": "Ensure that you allow third-party cookies from optimize.google.com and www.google-analytics.com, check your network connection and your CSP policy (https://support.google.com/optimize/answer/7388531), and try again."
+   },
+   "diff_preview_container": {
+      "description": "The error displayed when the page is different from the one indicated in the experiment details page.",
+      "message": "The preview on this page is different from the one selected to preview from the experiment details page."
+   },
+   "emulation_failure": {
+      "description": "An error message that is displayed when Chrome isn't able to properly emulate the experiment preview. Expects an error message",
+      "message": "Device emulation preview failed: $error_reason$",
+      "placeholders": {
+         "error_reason": {
+            "content": "$1",
+            "example": "Chrome version not up to date"
+         }
+      }
+   },
+   "enable_cookies": {
+      "description": "An error message indicating to the user that they need to enable cookies in order to properly preview an Optimize variant.",
+      "message": "Unable to preview experience. Please make sure to enable cookies and restart the browser."
+   },
+   "enable_cookies_live": {
+      "description": "An error message indicating to the user that they need to enable cookies in order to properly preview an Optimize variant.",
+      "message": "Unable to live debug. Please make sure to enable cookies and restart the browser."
+   },
+   "ext_description": {
+      "description": "The description used to describe the Google Optimize Chrome extension",
+      "message": "Facilitates editing content with Google Optimize."
+   },
+   "failed_to_load": {
+      "description": "The catch-all error we display when the Optimize editor fails to load",
+      "message": "The Optimize editor failed to load."
+   },
+   "help": {
+      "description": "The text to the link to the help pages",
+      "message": "Help"
+   },
+   "inactive_preview_status": {
+      "description": "The status we display when the preview is inactive",
+      "message": "Inactive Preview"
+   },
+   "internal_error": {
+      "description": "The catch-all error we display to let them know that the optimize editor had some kind of internal error",
+      "message": "The Optimize editor had an internal error."
+   },
+   "mobile": {
+      "description": "Used in the emulator selection to indicate that they want to emulate viewing from a mobile web portal.",
+      "message": "Mobile"
+   },
+   "no_optimize_snippet": {
+      "description": "The message we display when the user needs to install the optimize snippet onto their page.",
+      "message": "This page does not have an Optimize snippet for this container. To preview this page and start an experiment, please check that your page has the snippet properly set up."
+   },
+   "no_preview_status": {
+      "description": "The status we display when there is nothing to preview",
+      "message": "No Preview"
+   },
+   "no_snippet_status": {
+      "description": "The status we display when the user doesn't have an Optimize snippet installed on their preview page",
+      "message": "No Snippet"
+   },
+   "not_active_review_page": {
+      "description": "The message we display when they are no longer viewing the active preview page.",
+      "message": "This page is no longer the active preview page. Reload to see the active preview, or do nothing to continue viewing this variation."
+   },
+   "not_experiment_page_1": {
+      "description": "Introduction message we display when the user attempts to use the extension on a page that doesn't match their experiment configuration.",
+      "message": "This extension is a tool for previewing your Optimize experiment pages."
+   },
+   "not_experiment_page_2": {
+      "description": "The message we display when the user attempts to use the extension on a page that doesn't match their experiment configuration (part 2).",
+      "message": "The current page is not being previewed."
+   },
+   "open_optimize": {
+      "description": "The string used for the button that would open up the Google Optimize home page",
+      "message": "Open Google Optimize"
+   },
+   "product_name": {
+      "description": "The product name shown as the header of the extension popup panel",
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "description": "An error message that is displayed when the user needs to install an Optimize snippet to the web page before it can be previewed",
+      "message": "The Google Optimize snippet for the container with ID $previewing_id$ is not correctly installed on this page. To preview experiences or debug the container, make sure the Google Optimize snippet is installed on any pages you want to test.",
+      "placeholders": {
+         "previewing_id": {
+            "content": "$1",
+            "example": "5ab34"
+         }
+      }
+   },
+   "reload": {
+      "description": "The text on the button that when clicked will reload the current page",
+      "message": "Reload"
+   },
+   "tablet": {
+      "description": "Used in the emulator selection to indicate that they want to emulate viewing from a tablet web portal.",
+      "message": "Tablet"
+   },
+   "turn_off": {
+      "description": "The text for the button that, when clicked, will turn off the Google Optimize preview changes functionality.",
+      "message": "Turn off Preview"
+   },
+   "turn_off_debug": {
+      "description": "The text for the button that, when clicked, will turn off the Google Optimize debug changes functionality.",
+      "message": "Turn off Debug"
+   },
+   "turn_off_live": {
+      "description": "The text for the button that, when clicked, will turn off the Google Optimize live debug functionality.",
+      "message": "Turn off Live Debug"
+   },
+   "url_redirect": {
+      "description": "The message to indicate that the url that the user entered actually redirects to a different url. The user should update the entered url to match the destination url in order to comply with online security measures.",
+      "message": "Google Optimize\n\nThe URL you entered:\n$model_url$\nredirects to this page. For security reasons, some redirects are not supported in the Optimize editor.\n\nTo use this page in your experiment, use your browser's back button to head back to Optimize and update the Editor URL with this page's address:\n$current_url$",
+      "placeholders": {
+         "current_url": {
+            "content": "$2",
+            "description": "The url the model_url redirects to",
+            "example": "http://redirect.result.com/"
+         },
+         "model_url": {
+            "content": "$1",
+            "description": "The url the user entered",
+            "example": "http://www.about.to.redirect.com/"
+         }
+      }
+   },
+   "web": {
+      "description": "Used in the emulator selection to indicate that they want to emulate viewing from a desktop web portal.",
+      "message": "Web"
+   }
+}

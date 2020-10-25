@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Débogage"
+   },
+   "active_live_debug_status": {
+      "message": "Débogage en direct"
+   },
+   "active_preview_status": {
+      "message": "Prévisualisation"
+   },
+   "check_network": {
+      "message": "Vérifiez que les cookies tiers provenant d'optimize.google.com et de www.google-analytics.com sont autorisés. Ensuite, vérifiez votre connexion réseau et votre règlement CSP (https://support.google.com/optimize/answer/7388531), puis réessayez."
+   },
+   "diff_preview_container": {
+      "message": "L'aperçu sur cette page est différent de celui sélectionné dans la page des détails du test."
+   },
+   "emulation_failure": {
+      "message": "Échec de l'émulation de l'aperçu de l'appareil : $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Impossible d'afficher l'aperçu de l'expérience. Veuillez vérifier que les cookies sont activés, puis redémarrez le navigateur."
+   },
+   "enable_cookies_live": {
+      "message": "Impossible d'effectuer le débogage en direct. Veillez à activer les cookies, puis redémarrez le navigateur."
+   },
+   "ext_description": {
+      "message": "Facilite l'édition de contenu avec Google Optimize."
+   },
+   "failed_to_load": {
+      "message": "Échec du chargement de l'éditeur Optimize."
+   },
+   "help": {
+      "message": "Aide"
+   },
+   "inactive_preview_status": {
+      "message": "Aperçu inactif"
+   },
+   "internal_error": {
+      "message": "Une erreur interne s'est produite dans l'éditeur Optimize."
+   },
+   "mobile": {
+      "message": "Mobile"
+   },
+   "no_optimize_snippet": {
+      "message": "Cette page ne comporte aucun extrait Optimize pour ce conteneur. Pour afficher un aperçu de cette page et démarrer un test, veuillez vérifier que l'extrait est correctement configuré sur celle-ci."
+   },
+   "no_preview_status": {
+      "message": "Aucun aperçu"
+   },
+   "no_snippet_status": {
+      "message": "Aucun extrait"
+   },
+   "not_active_review_page": {
+      "message": "Cette page n'est plus l'aperçu actif. Pour afficher ce dernier, veuillez actualiser la page. Vous pouvez également ignorer cette instruction pour continuer à consulter cette variante."
+   },
+   "not_experiment_page_1": {
+      "message": "Cette extension est un outil permettant de prévisualiser vos pages de test Optimize."
+   },
+   "not_experiment_page_2": {
+      "message": "Aucun aperçu de la page actuelle n'est affiché."
+   },
+   "open_optimize": {
+      "message": "Ouvrir Google Optimize"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "L'extrait Google Optimize pour le conteneur avec l'ID $1 n'est pas correctement installé sur cette page. Pour prévisualiser des expériences ou déboguer le conteneur, vérifiez que l'extrait Google Optimize est bien installé sur toutes les pages à tester.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Actualiser la page"
+   },
+   "tablet": {
+      "message": "Tablette"
+   },
+   "turn_off": {
+      "message": "Désactiver l'aperçu"
+   },
+   "turn_off_debug": {
+      "message": "Désactiver le débogage"
+   },
+   "turn_off_live": {
+      "message": "Désactiver le débogage en direct"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nL'URL que vous avez saisie :\n$1\npointe vers cette page. Pour des raisons de sécurité, certaines redirections ne sont pas acceptées dans l'éditeur Optimize.\n\nPour utiliser cette page dans votre test, cliquez sur le bouton de retour de votre navigateur. Vous pourrez ainsi revenir dans Optimize afin de remplacer l'URL de l'éditeur par l'adresse de cette page :\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Ordinateur"
+   }
+}

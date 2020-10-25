@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Remedierea erorilor"
+   },
+   "active_live_debug_status": {
+      "message": "Se remediază live erorile"
+   },
+   "active_preview_status": {
+      "message": "În curs de previzualizare"
+   },
+   "check_network": {
+      "message": "Asigurați-vă că acceptați cookie-urile terță parte de la optimize.google.com și de la www.google-analytics.com, verificați conexiunea la rețea și politica privind siguranța conținutului (https://support.google.com/optimize/answer/7388531) și încercați din nou."
+   },
+   "diff_preview_container": {
+      "message": "Previzualizarea din această pagină este diferită de cea selectată din pagina cu detalii despre experiment."
+   },
+   "emulation_failure": {
+      "message": "Previzualizarea simulării dispozitivului nu a reușit: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Experiența nu poate fi previzualizată. Activați cookie-urile și reporniți browserul."
+   },
+   "enable_cookies_live": {
+      "message": "Nu se pot remedia live erorile. Activați cookie-urile și reporniți browserul."
+   },
+   "ext_description": {
+      "message": "Facilitează modificarea conținutului cu Google Optimize."
+   },
+   "failed_to_load": {
+      "message": "Editorul Optimize nu s-a încărcat."
+   },
+   "help": {
+      "message": "Ajutor"
+   },
+   "inactive_preview_status": {
+      "message": "Previzualizare inactivă"
+   },
+   "internal_error": {
+      "message": "Editorul Optimize a întâmpinat o eroare internă."
+   },
+   "mobile": {
+      "message": "Mobil"
+   },
+   "no_optimize_snippet": {
+      "message": "Pagina nu are un fragment Optimize pentru acest container. Pentru a previzualiza pagina și a începe un experiment, verificați dacă fragmentul este corect activat în aceasta."
+   },
+   "no_preview_status": {
+      "message": "Nicio previzualizare"
+   },
+   "no_snippet_status": {
+      "message": "Niciun fragment"
+   },
+   "not_active_review_page": {
+      "message": "Această pagină nu mai este pagina de previzualizare activă. Reîncărcați-o pentru a vedea previzualizarea activă sau nu luați nicio măsură pentru a vedea în continuare această variantă."
+   },
+   "not_experiment_page_1": {
+      "message": "Această extensie este un instrument pentru previzualizarea paginilor de experiment Optimize."
+   },
+   "not_experiment_page_2": {
+      "message": "Pagina actuală nu este previzualizată."
+   },
+   "open_optimize": {
+      "message": "Deschideți Google Optimize"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "Fragmentul Google Optimize pentru containerul cu ID-ul $1 nu este instalat corect în pagină. Pentru a previzualiza experiențe sau a remedia erorile dintr-un container, fragmentul Google Optimize trebuie să fie instalat în orice pagină pe care doriți să o testați.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Reîncărcați"
+   },
+   "tablet": {
+      "message": "Tabletă"
+   },
+   "turn_off": {
+      "message": "Dezactivați previzualizarea"
+   },
+   "turn_off_debug": {
+      "message": "Dezactivați remedierea erorilor"
+   },
+   "turn_off_live": {
+      "message": "Dezactivați remedierea live a erorilor"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nAdresa URL introdusă:\n$1\nredirecționează la această pagină. Din motive de siguranță, anumite redirecționări nu sunt acceptate în editorul Optimize.\n\nPentru a folosi această pagină în experiment, întoarceți-vă la Optimize cu ajutorul butonului de revenire din browser și înlocuiți adresa URL a editorului cu adresa acestei pagini:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Web"
+   }
+}

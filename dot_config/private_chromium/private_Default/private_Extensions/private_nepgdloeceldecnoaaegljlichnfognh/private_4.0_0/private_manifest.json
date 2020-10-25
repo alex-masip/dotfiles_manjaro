@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "38": "BQMate38T.png",
+      "default_popup": "popup.html",
+      "default_title": "BQ Mate Navigator"
+   },
+   "content_scripts": [ {
+      "css": [ "jquery-ui.min.css" ],
+      "js": [ "jquery-2.2.4.min.js", "jquery-ui.min.js" ],
+      "matches": [ "*://bigquery.cloud.google.com/*", "*://console.cloud.google.com/bigquery*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com https://*.google.com ; object-src 'self'",
+   "description": "Companion tool for Google BigQuery UI used by myself and my peers at Viant Inc. Adds some extra functionality to BQ Native UI",
+   "icons": {
+      "128": "BQMate128T.png",
+      "19": "BQMate19T.png",
+      "38": "BQMate38T.png",
+      "96": "BQMate96T.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjVsdwWeDvFg+MQPNsw+P/O8amjv2KZ5Q0lkDZEhf19SjRMYCDhXcu87PWmmia7NOaiCl5GTkoiPBAPcegudjKvOk5aX4zJiLhqadspbhSVx8vVFUTTgKvtTgvM6KP/TUJ8/pVAHPpbbebsSHYE+qYFLixgD2KrcwR5NtR/JYtoog3w6Ja7oQl/66b7WBs8A19CLyc+1QHgZQ2bLftkQdgjjDmEt/dxr4QDE1o6gvTDW9AUO8LDzew6xSY7OyzltqBHhar7BinDInepOJuFL84WwUMAeAIIo2xWFa5RsK/HhlA1q3wSGxC3+1tQMkoAW+kaLCEarCkg+K+39/uDKtxwIDAQAB",
+   "manifest_version": 2,
+   "name": "BigQuery Mate",
+   "permissions": [ "*://bigquery.cloud.google.com/*", "*://console.cloud.google.com/bigquery*", "*://cloud.google.com/bigquery*", "*://us-central1-mb-sandbox-01.cloudfunctions.net/*", "tabs", "activeTab", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0",
+   "web_accessible_resources": [ "BQMate128T.png", "full-screen.png", "viant_logo.png", "potens.png", "chart.html", "chart.js", "pivot.css", "pivot.js", "c3_renderers.js", "export_renderers.js" ]
+}

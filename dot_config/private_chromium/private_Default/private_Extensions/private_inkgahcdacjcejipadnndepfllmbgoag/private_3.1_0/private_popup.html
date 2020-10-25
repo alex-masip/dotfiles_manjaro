@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html class="popup" lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-material-design.css">
+    <link rel="stylesheet" href="css/extension.css">
+
+    <!-- Init Core -->
+    <script src="lib/jquery.js"></script>
+    <script src="lib/core.js"></script>
+    <script src="lib/material.min.js"></script>
+    
+    <!-- Include Controller -->
+    <script src="popup.js"></script>
+</head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <form class="form">
+                    <legend class="form-title">Data Studio Auto-Refresh</legend>
+                    <fieldset>
+                        <div class="well">
+                            <div class="form-info">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p>Please go to one of your Data Studio reports and click again on extension icon.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-settings">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group form-vertical">
+                                            <div class="togglebutton">
+                                                <label>
+                                                    <input type="checkbox" id="refresh-state">
+                                                </label>
+                                            </div>
+                                            Refresh every
+                                            <input class="form-control value" id="refresh" type="number" min="0" max="60" value="0">
+                                            min.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group form-vertical">
+                                            <div class="togglebutton">
+                                                <label>
+                                                    <input type="checkbox" id="paginate-state">
+                                                </label>
+                                            </div>
+                                            Paginate every
+                                            <input class="form-control value" id="paginate" type="number" min="0" max="999" value="0">
+                                            sec.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group form-vertical">
+                                            <div class="togglebutton">
+                                                <label>
+                                                    <input type="checkbox" id="tabswitch-state">
+                                                </label>
+                                            </div>
+                                            Paginate Chrome tabs every
+                                            <input class="form-control value" id="tabswitch" type="number" min="30" max="999" value="30">
+                                            sec. (min 30s)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="copyright">By <a href="https://trafikant.pro/?utm_source=DataStudioExt&utm_medium=popup" target="_blank">Trafikant.pro</a></p>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Ladění"
+   },
+   "active_live_debug_status": {
+      "message": "Ladění online"
+   },
+   "active_preview_status": {
+      "message": "Zobrazení náhledu"
+   },
+   "check_network": {
+      "message": "Je nutné, abyste povolili soubory cookie třetích stran z adresy optimize.google.com a www.google-analytics.com. Poté zkontrolujte své připojení k síti a zásady CSP (https://support.google.com/optimize/answer/7388531) a zkuste to znovu."
+   },
+   "diff_preview_container": {
+      "message": "Náhled na této stránce se liší od náhledu vybraného na stránce s podrobnostmi o experimentu."
+   },
+   "emulation_failure": {
+      "message": "Náhled emulace zařízení se nepodařilo zobrazit: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Náhled experimentu/personalizace nelze zobrazit. Povolte cookies a restartujte prohlížeč."
+   },
+   "enable_cookies_live": {
+      "message": "Nelze ladit online. Povolte cookies a restartujte prohlížeč."
+   },
+   "ext_description": {
+      "message": "Usnadňuje editaci obsahu pomocí Optimalizace Google."
+   },
+   "failed_to_load": {
+      "message": "Načtení editoru Optimalizace se nezdařilo."
+   },
+   "help": {
+      "message": "Nápověda"
+   },
+   "inactive_preview_status": {
+      "message": "Neaktivní náhled"
+   },
+   "internal_error": {
+      "message": "V editoru Optimalizace došlo k interní chybě."
+   },
+   "mobile": {
+      "message": "Mobilní reklamy"
+   },
+   "no_optimize_snippet": {
+      "message": "Stránka neobsahuje fragment Optimalizace pro tento kontejner. Chcete-li zobrazit náhled stránky a spustit experiment, zkontrolujte prosím, jestli je fragment na stránce správně nastaven."
+   },
+   "no_preview_status": {
+      "message": "Náhled není k dispozici"
+   },
+   "no_snippet_status": {
+      "message": "Bez fragmentu"
+   },
+   "not_active_review_page": {
+      "message": "Tato stránka už není aktivním náhledem. Chcete-li zobrazit aktivní náhled, stránku obnovte. V opačném případě si můžete dále prohlížet tuto variantu."
+   },
+   "not_experiment_page_1": {
+      "message": "S tímto rozšířením můžete zobrazit náhled stránek Optimalizace s experimentem."
+   },
+   "not_experiment_page_2": {
+      "message": "Není zobrazen náhled této stránky."
+   },
+   "open_optimize": {
+      "message": "Spustit Optimalizaci Google"
+   },
+   "product_name": {
+      "message": "Optimalizace"
+   },
+   "public_id_missing": {
+      "message": "Fragment kódu služby Optimalizace Google pro kontejner s ID $1 není na této stránce správně nainstalován. Chcete-li zobrazit náhled experimentů/personalizací nebo ladit kontejner, zkontrolujte, zda je na všech stránkách, které chcete testovat, nainstalován fragment kódu služby Optimalizace Google.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Obnovit"
+   },
+   "tablet": {
+      "message": "Tablety"
+   },
+   "turn_off": {
+      "message": "Vypnout náhled"
+   },
+   "turn_off_debug": {
+      "message": "Vypnout ladění"
+   },
+   "turn_off_live": {
+      "message": "Vypnout ladění online"
+   },
+   "url_redirect": {
+      "message": "Optimalizace Google\n\nVámi zadaná adresa URL:\n$1\npřesměrovává uživatele na tuto stránku. Editor služby Optimalizace z bezpečnostních důvodů některá přesměrování nepodporuje.\n\nChcete-li stránku do experimentu zahrnout, klikněte na tlačítko Zpět v prohlížeči. Dostanete se zpět na Optimalizace, kde v editoru přidejte adresu URL této stránky:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Web"
+   }
+}

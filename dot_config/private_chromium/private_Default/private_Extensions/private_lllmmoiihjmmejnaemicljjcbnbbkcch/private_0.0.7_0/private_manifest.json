@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.reportsfortrello.com/"
+      },
+      "urls": [ "http://*.reportsfortrello.com/" ]
+   },
+   "description": "Track your Trello usage.",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCI56BhsVyE3EyjiaPfyjjdCRECqvcRy5X2GeJbvrlNJ3SuD8bJXLJJbPObs7qK7hHUejoqP8lcy9kU5Hbm+0tr0lw2ig4zp1c6lOu3uH5sFn+1ChzNrvMnHcIvGo2qeKV3cjE/hUqT2HzdsCEEJ8/0JRakB5P/8NIAP5VKXPBP4QIDAQAB",
+   "manifest_version": 2,
+   "name": "Reports for Trello",
+   "permissions": [ "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.7"
+}

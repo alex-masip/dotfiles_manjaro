@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Đang gỡ lỗi"
+   },
+   "active_live_debug_status": {
+      "message": "Đang gỡ lỗi trực tiếp"
+   },
+   "active_preview_status": {
+      "message": "Đang xem trước"
+   },
+   "check_network": {
+      "message": "Hãy đảm bảo rằng bạn cho phép cookie bên thứ ba của trang optimize.google.com và trang www.google-analytics.com, kiểm tra tình trạng kết nối mạng cũng như chính sách CSP của bạn (https://support.google.com/optimize/answer/7388531), rồi thử lại."
+   },
+   "diff_preview_container": {
+      "message": "Xem trước trên trang này khác với trang được chọn để xem trước từ trang chi tiết thử nghiệm."
+   },
+   "emulation_failure": {
+      "message": "Không thể mô phỏng xem trước thiết bị: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Không thể xem trước trải nghiệm. Hãy đảm bảo bật cookie và khởi động lại trình duyệt."
+   },
+   "enable_cookies_live": {
+      "message": "Không thể gỡ lỗi trực tiếp. Hãy đảm bảo bật cookie và khởi động lại trình duyệt."
+   },
+   "ext_description": {
+      "message": "Hỗ trợ chỉnh sửa nội dung với Google Optimize."
+   },
+   "failed_to_load": {
+      "message": "Không thể tải trình chỉnh sửa Optimize."
+   },
+   "help": {
+      "message": "Trợ giúp"
+   },
+   "inactive_preview_status": {
+      "message": "Xem trước không hoạt động"
+   },
+   "internal_error": {
+      "message": "Trình chỉnh sửa Optimize có lỗi nội bộ."
+   },
+   "mobile": {
+      "message": "Di động"
+   },
+   "no_optimize_snippet": {
+      "message": "Trang này không có đoạn mã Optimize cho vùng chứa này. Để xem trước trang này và bắt đầu thử nghiệm, vui lòng kiểm tra xem trang của bạn đã thiết lập đúng đoạn mã chưa."
+   },
+   "no_preview_status": {
+      "message": "Không có bản xem trước"
+   },
+   "no_snippet_status": {
+      "message": "Không có đoạn mã nào"
+   },
+   "not_active_review_page": {
+      "message": "Trang này không còn là trang xem trước đang hoạt động. Tải lại để xem bản xem trước đang hoạt động hoặc không làm gì để tiếp tục xem biến thể này."
+   },
+   "not_experiment_page_1": {
+      "message": "Tiện ích này là công cụ để xem trước trang thử nghiệm Optimize của bạn."
+   },
+   "not_experiment_page_2": {
+      "message": "Trang hiện tại không được xem trước."
+   },
+   "open_optimize": {
+      "message": "Mở Google Optimize"
+   },
+   "product_name": {
+      "message": "Tối ưu hóa"
+   },
+   "public_id_missing": {
+      "message": "Bạn đã cài đặt chưa đúng cách đoạn mã Google Tối ưu hóa dành cho vùng chứa có mã $1 trên trang này. Để xem trước trải nghiệm hoặc gỡ lỗi vùng chứa, hãy đảm bảo bạn đã cài đặt đoạn mã Google Tối ưu hóa trên mọi trang mà bạn muốn thử nghiệm.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Tải lại"
+   },
+   "tablet": {
+      "message": "Máy tính bảng"
+   },
+   "turn_off": {
+      "message": "Tắt xem trước"
+   },
+   "turn_off_debug": {
+      "message": "Tắt tính năng Gỡ lỗi"
+   },
+   "turn_off_live": {
+      "message": "Tắt tính năng gỡ lỗi trực tiếp"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nURL bạn đã nhập:\n$1\nchuyển hướng đến trang này. Vì lý do bảo mật, một số chuyển hướng không được hỗ trợ trong trình chỉnh sửa Optimize.\n\nĐể sử dụng trang này trong thử nghiệm của bạn, hãy sử dụng nút quay lại của trình duyệt để quay lại Optimize và cập nhật URL trình chỉnh sửa với địa chỉ của trang này:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Web"
+   }
+}

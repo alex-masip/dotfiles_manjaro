@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Virheenkorjaus"
+   },
+   "active_live_debug_status": {
+      "message": "Live-virheenkorjaus käynnissä"
+   },
+   "active_preview_status": {
+      "message": "Esikatselu"
+   },
+   "check_network": {
+      "message": "Varmista, että olet sallinut kolmannen osapuolen evästeet sivustoilta optimize.google.com ja www.google-analytics.com, tarkista verkkoyhteytesi ja CSP-käytäntösi (https://support.google.com/optimize/answer/7388531) ja yritä uudelleen."
+   },
+   "diff_preview_container": {
+      "message": "Tällä sivulla näytettävä esikatselu poikkeaa kokeilun tietosivulla valitusta esikatselusta."
+   },
+   "emulation_failure": {
+      "message": "Laite-emuloinnin esikatselu epäonnistui: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Kokemusta ei voi esikatsella. Ota evästeet käyttöön ja käynnistä selain uudelleen."
+   },
+   "enable_cookies_live": {
+      "message": "Live-virheenkorjaus epäonnistui. Ota evästeet käyttöön ja käynnistä selain uudelleen."
+   },
+   "ext_description": {
+      "message": "Tämä laajennus helpottaa sisällön muokkausta Google Optimizen avulla."
+   },
+   "failed_to_load": {
+      "message": "Optimizen muokkaustyökalua ei voitu ladata."
+   },
+   "help": {
+      "message": "Ohje"
+   },
+   "inactive_preview_status": {
+      "message": "Esikatselu ei ole aktiivinen"
+   },
+   "internal_error": {
+      "message": "Optimizen muokkaustyökalussa tapahtui sisäinen virhe."
+   },
+   "mobile": {
+      "message": "Mobiili"
+   },
+   "no_optimize_snippet": {
+      "message": "Tälle sivulle ei ole lisätty Optimizen koodinpätkää tätä säilöä varten. Jotta voit esikatsella sivua ja aloittaa kokeilun, varmista, että koodinpätkä on lisätty sivulle oikein."
+   },
+   "no_preview_status": {
+      "message": "Ei esikatselua"
+   },
+   "no_snippet_status": {
+      "message": "Ei koodinpätkää"
+   },
+   "not_active_review_page": {
+      "message": "Tämä sivu ei ole enää aktiivinen esikatselusivu. Lataa sivu uudelleen, jotta näet aktiivisen esikatselun, tai jatka tämän muunnelman katselua."
+   },
+   "not_experiment_page_1": {
+      "message": "Tällä laajennuksella voit esikatsella Optimizen kokeilusivujasi."
+   },
+   "not_experiment_page_2": {
+      "message": "Nykyistä sivua ei esikatsella."
+   },
+   "open_optimize": {
+      "message": "Avaa Google Optimize"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "Säilön (tunnus: $1) Google Optimize ‑koodinpätkää ei ole asennettu oikein tälle sivulle. Jos haluat esikatsella kokemuksia tai jäljittää ja korjata säilön virheet, varmista, että Google Optimize ‑koodinpätkä on asennettu kaikille testattaville sivuille.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Päivitä"
+   },
+   "tablet": {
+      "message": "Tabletti"
+   },
+   "turn_off": {
+      "message": "Poista esikatselu käytöstä"
+   },
+   "turn_off_debug": {
+      "message": "Poista virheenkorjaus käytöstä"
+   },
+   "turn_off_live": {
+      "message": "Poista live-virheenkorjaus käytöstä"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nAntamasi URL-osoite\n$1\nsisältää uudelleenohjauksen tälle sivulle. Turvallisuussyistä joitain uudelleenohjausosoitteita ei tueta Optimizen muokkaustyökalussa.\n\nJos haluat käyttää tätä sivua kokeilussasi, siirry selaimen Takaisin-painikkeella Optimizeen ja päivitä muokkaustyökalun URL-osoitteeksi seuraava osoite:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Verkko"
+   }
+}

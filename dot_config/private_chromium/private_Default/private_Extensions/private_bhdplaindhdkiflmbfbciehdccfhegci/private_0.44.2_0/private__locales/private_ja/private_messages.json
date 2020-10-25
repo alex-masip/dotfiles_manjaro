@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "デバッグ中"
+   },
+   "active_live_debug_status": {
+      "message": "リアルタイムでデバッグ中"
+   },
+   "active_preview_status": {
+      "message": "プレビュー中"
+   },
+   "check_network": {
+      "message": "「optimize.google.com」と「www.google-analytics.com」からのサードパーティ Cookie を有効にし、ネットワーク接続と CSP ポリシー（https://support.google.com/optimize/answer/7388531）に問題がないことを確認したうえで、もう一度お試しください。"
+   },
+   "diff_preview_container": {
+      "message": "このページでのプレビューは、テストの詳細ページでプレビューするよう指定したものとは異なります。"
+   },
+   "emulation_failure": {
+      "message": "デバイス エミュレーション プレビューができませんでした。理由: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "テストをプレビューできません。Cookie が有効であることを確認してからブラウザを再起動してください。"
+   },
+   "enable_cookies_live": {
+      "message": "リアルタイムでデバッグできません。Cookie が有効であることを確認してからブラウザを再起動してください。"
+   },
+   "ext_description": {
+      "message": "Google オプティマイズを使ってコンテンツを編集しやすくしましょう。"
+   },
+   "failed_to_load": {
+      "message": "オプティマイズ エディタを読み込めませんでした。"
+   },
+   "help": {
+      "message": "ヘルプ"
+   },
+   "inactive_preview_status": {
+      "message": "プレビュー無効"
+   },
+   "internal_error": {
+      "message": "オプティマイズ エディタで内部エラーが発生しました。"
+   },
+   "mobile": {
+      "message": "モバイル"
+   },
+   "no_optimize_snippet": {
+      "message": "このページには、このコンテナのオプティマイズ スニペットがありません。このページをプレビューしてテストを始めるには、ページを確認してスニペットを適切に設定してください。"
+   },
+   "no_preview_status": {
+      "message": "プレビューなし"
+   },
+   "no_snippet_status": {
+      "message": "スニペットなし"
+   },
+   "not_active_review_page": {
+      "message": "このページではプレビューが無効になりました。有効なプレビューを表示するにはページを再読み込みしてください。引き続きこのパターンを表示する場合は、何もしなくてかまいません。"
+   },
+   "not_experiment_page_1": {
+      "message": "この拡張機能は、オプティマイズのテストページをプレビューするためのツールです。"
+   },
+   "not_experiment_page_2": {
+      "message": "現在のページはプレビュー状態ではありません。"
+   },
+   "open_optimize": {
+      "message": "Google オプティマイズを開く"
+   },
+   "product_name": {
+      "message": "オプティマイズ"
+   },
+   "public_id_missing": {
+      "message": "このページには、コンテナ ID $1 の Google オプティマイズ スニペットが正しくインストールされていません。コンテナをテストまたはデバッグするには、テストするすべてのページに Google オプティマイズ スニペットがインストールされていることを確認してください。",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "再読み込み"
+   },
+   "tablet": {
+      "message": "タブレット"
+   },
+   "turn_off": {
+      "message": "プレビューをオフにする"
+   },
+   "turn_off_debug": {
+      "message": "デバッグをオフにする"
+   },
+   "turn_off_live": {
+      "message": "リアルタイムのデバッグを無効にする"
+   },
+   "url_redirect": {
+      "message": "Google オプティマイズ\n\nお客様が入力した URL「$1」は、このページにリダイレクトしています。オプティマイズ エディタではセキュリティ上の理由からリダイレクトがサポートされない場合があります。\n\nテストでこのページを使用するには、ブラウザの戻るボタンでオプティマイズの画面に戻り、[エディタ URL] の値をこのページのアドレス「$2」に更新してください。",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "ウェブ"
+   }
+}

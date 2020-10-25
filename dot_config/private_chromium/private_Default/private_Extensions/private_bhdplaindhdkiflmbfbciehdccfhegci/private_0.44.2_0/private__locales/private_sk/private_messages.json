@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Ladenie"
+   },
+   "active_live_debug_status": {
+      "message": "Prebieha ladenie naživo"
+   },
+   "active_preview_status": {
+      "message": "Zobrazovanie ukážky"
+   },
+   "check_network": {
+      "message": "Ubezpečte sa, že máte povolené súbory cookie tretích strán z optimize.google.com a www.google-analytics.com, skontrolujte sieťové pripojenie a pravidlá zabezpečenia obsahu (https://support.google.com/optimize/answer/7388531) a skúste to znova."
+   },
+   "diff_preview_container": {
+      "message": "Ukážka na tejto stránke sa líši od ukážky zvolenej na zobrazenie ukážky na stránke podrobností experimentu."
+   },
+   "emulation_failure": {
+      "message": "Ukážka emulácie zariadenia zlyhala: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Nemožno zobraziť ukážku prostredia. Povoľte súbory cookie a reštartujte prehliadač."
+   },
+   "enable_cookies_live": {
+      "message": "Nepodarilo sa ladiť naživo. Nezabudnite povoliť súbory cookie a reštartovať prehliadač."
+   },
+   "ext_description": {
+      "message": "Zjednodušuje úpravu obsahu pomocou Optimalizácie Google."
+   },
+   "failed_to_load": {
+      "message": "Editor Optimalizácie sa nepodarilo načítať."
+   },
+   "help": {
+      "message": "Pomocník"
+   },
+   "inactive_preview_status": {
+      "message": "Neaktívna ukážka"
+   },
+   "internal_error": {
+      "message": "Editor Optimalizácie narazil na internú chybu."
+   },
+   "mobile": {
+      "message": "Mobily"
+   },
+   "no_optimize_snippet": {
+      "message": "Táto stránka nemá útržok Optimalizácie pre tento kontajner. Ak chcete zobraziť ukážku tejto stránky a spustiť experiment, skontrolujte, či je na vašej stránke správne nastavený útržok."
+   },
+   "no_preview_status": {
+      "message": "Žiadna ukážka"
+   },
+   "no_snippet_status": {
+      "message": "Žiadny útržok"
+   },
+   "not_active_review_page": {
+      "message": "Táto stránka už nie je stránkou aktívnej ukážky. Na zobrazenie aktívnej ukážky znova načítajte stránku alebo nerobte nič, ak si chcete ďalej prezerať túto verziu."
+   },
+   "not_experiment_page_1": {
+      "message": "Toto rozšírenie predstavuje nástroj na zobrazenie ukážky stránok vašich experimentov Optimalizácie."
+   },
+   "not_experiment_page_2": {
+      "message": "Nezobrazuje sa ukážka súčasnej stránky."
+   },
+   "open_optimize": {
+      "message": "Otvoriť Optimalizáciu Google"
+   },
+   "product_name": {
+      "message": "Optimalizácia"
+   },
+   "public_id_missing": {
+      "message": "Útržok Optimalizácie Google pre kontajner s identifikátorom $1 nie je na tejto stránke nainštalovaný správne. Ak chcete zobraziť ukážku prostredí alebo ladiť kontajner, uistite sa, že útržok Optimalizácie Google je nainštalovaný na všetkých stránkach, ktoré chcete testovať.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Znova načítať"
+   },
+   "tablet": {
+      "message": "Tablety"
+   },
+   "turn_off": {
+      "message": "Vypnúť ukážku"
+   },
+   "turn_off_debug": {
+      "message": "Vypnúť ladenie"
+   },
+   "turn_off_live": {
+      "message": "Vypnúť ladenie naživo"
+   },
+   "url_redirect": {
+      "message": "Optimalizácia Google\n\nVami zadaná webová adresa\n$1\nodkazuje na túto stránku. Z bezpečnostných dôvodov nie sú v editore Optimalizácie niektoré presmerovania podporované.\n\nAk chcete túto stránku použiť vo svojom experimente, pomocou tlačidla Späť v prehliadači sa vráťte na stránku Optimalizácie a aktualizujte webovú adresu editora na túto adresu stránky:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Webové stránky"
+   }
+}

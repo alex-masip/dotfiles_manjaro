@@ -1,0 +1,36 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "inactive_16.png",
+         "32": "inactive_32.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Google Optimize"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_ext_description__",
+   "externally_connectable": {
+      "matches": [ "https://optimize.google.com/optimize/*" ]
+   },
+   "icons": {
+      "128": "ga_optimizer_128.png",
+      "16": "ga_optimizer_16.png",
+      "48": "ga_optimizer_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmDfO1NsxtE1VOKAox2CM3ySo0bPsRc2WWdTp8xokyOKDBjPJoO1Y8w/sPCU5eT9Hd733fRRVbPqgMSZFX/VrybJkBMrDIRtWaK3pgC4UapjnZNK2zqKRqX7WVt7kXJPoI+icLpWk9krV/xQtnlNxR2CPFf60bvtYpWjBD3dchDp42TjhzeEz7pnWFMUdLHBW2wLPwdNwmF9jRb1hnRmcFFlfWjQGULSj/dg1koLdt+FWz6X0KR1YB0+PNn++p2Agh8HS679lu5/Aim9bEboKSVsPMtc8lvZ8P+BPej3ijUWiYRv8TOdFZRn32MStxkF0GfCBy7eYD3VpUcqTXYsotwIDAQAB",
+   "manifest_version": 2,
+   "name": "Google Optimize",
+   "permissions": [ "storage", "debugger", "webRequest", "webRequestBlocking", "tabs", "http://*/", "https://*/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.44.2"
+}

@@ -1,0 +1,672 @@
+ /*Copyright (C) 2012 Observepoint LLC. All rights reserved.*/
+/* Observepoint defined styles */
+
+
+/* Ad footer styling */
+.ad_descrip {
+	display: table;
+	width: 100%;
+	padding-left: 150px;
+	padding-right: 150px;
+	height: 40px;
+}
+
+.ad_left_col {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 140px;
+}
+
+.ad_right_col {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 140px;
+}
+
+@media (min-width: 750px) {
+	.short_ad {
+		display: none;
+	}
+	.full_ad {
+		display: table-cell;
+	}
+}
+
+@media (max-width: 750px) {
+	.short_ad {
+		display: table-cell;
+	}
+	.full_ad {
+		display: none;
+	}
+}
+
+@media (max-width: 500px) {
+	.ad_right_col {
+		display: none;
+	}
+	.ad_descrip {
+		padding-right: 0;
+	}
+}
+
+.logo {
+	width: 140px;
+	height: 40px;
+}
+
+.op_link {
+	text-decoration: none;
+	color: #333;
+	width: 100%;
+}
+.verbie {
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.verbie span {
+	color: #309ab2;
+	text-decoration: underline;
+}
+
+.op_ad_bottom {
+	z-index:1;
+	height: 40px;
+	position:fixed;
+	bottom: 0;
+	background: #fff;
+	width: 100%;
+	border-top: 1px solid #eaeaea;
+	cursor: auto;
+}
+
+/* end ad footer styles */
+
+
+#sidepanel_main {
+  right:0px;
+  width:50%;
+  background-color:white;
+  display:visible;
+  border-left:1px solid gray;
+  z-index:11;
+  display:none;
+}
+.active_row {
+  background-color: rgb(56,121,217);
+  color:white;
+
+}
+.active_row .network-cell-subtitle {
+  color:white;
+}
+
+#request-data {
+  display:none;
+}
+.source-code {
+  word-wrap: break-word;
+  padding-right:10px;
+}
+.resource-headers-view .tabcontent .parent {
+    -webkit-user-select: none;
+    font-weight: bold;
+}
+#footer-marketing-column {
+  width:50%;text-align:right;
+}
+#footer-data {
+  width:50%;
+}
+.blank-tag-row {
+  border-collapse: collapse;
+  border: 1px solid #d3d3d3;
+  background-color:white;
+  text-align:center;
+}
+#main_area_data_container {
+  overflow-y: scroll;
+  margin-bottom:40px;
+}
+
+
+  /*the styles below have been heavily modified for Observepoint Tag Debugger */
+  /*
+   * Copyright (C) 2011 Google Inc. All rights reserved.
+   *
+   * Redistribution and use in source and binary forms, with or without
+   * modification, are permitted provided that the following conditions are
+   * met:
+   *
+   * 1. Redistributions of source code must retain the above copyright
+   * notice, this list of conditions and the following disclaimer.
+   *
+   * 2. Redistributions in binary form must reproduce the above
+   * copyright notice, this list of conditions and the following disclaimer
+   * in the documentation and/or other materials provided with the
+   * distribution.
+   *
+   * THIS SOFTWARE IS PROVIDED BY GOOGLE INC. AND ITS CONTRIBUTORS
+   * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+   * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+   * A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL GOOGLE INC.
+   * OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+   * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+   * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+   * DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+   * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+   * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+   * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+   */
+  .data-grid {
+	    position: relative;
+	    border: 1px solid #aaa;
+	}
+
+	.data-grid table {
+	    table-layout: fixed;
+	    border-spacing: 0;
+	    border-collapse: collapse;
+	    width: 100%;
+	    font-size: 10px;
+	    font-family: Lucida Grande, sans-serif;
+	}
+
+	.data-grid .data-container {
+	    position: absolute;
+      margin-right: 14px;
+      width:100%;
+	    top: 16px;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    overflow-x: hidden;
+	}
+
+	.data-grid th {
+	    text-align: left;
+	    background-image: url(Images/glossyHeader.png);
+	    background-repeat: repeat-x;
+	    border-right: 1px solid rgb(179, 179, 179);
+	    border-bottom: 1px solid rgb(179, 179, 179);
+	    height: 15px;
+	    font-weight: normal;
+	    vertical-align: middle;
+	    padding: 0 4px;
+	    white-space: nowrap;
+	}
+
+	.data-grid th.corner {
+	    width:15px;
+	    padding-right: 0px;
+	    padding-left: 0px;
+	    border-right: 0 none transparent;
+	}
+
+	.data-grid tr.information {
+	    display: table-row !important;
+	    height: auto !important;
+	}
+
+	.data-grid tr.information td {
+	    height: auto !important;
+	    padding: 0 !important;
+	}
+
+	.data-grid table {
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    right: 16px;
+	    bottom: 0;
+	}
+
+	.data-grid.inline table.data {
+	    position: static;
+	}
+
+	.data-grid table.data tr {
+	    display: none;
+	}
+
+	.data-grid table.data tr.revealed {
+	    display: table-row;
+	}
+
+	.data-grid td {
+	    vertical-align: top;
+	    height: 12px;
+	    line-height: 12px;
+	    padding: 2px 4px;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    border-right: 1px solid #aaa;
+	    -webkit-user-select: text;
+	}
+
+	.data-grid td > div, .data-grid th > div {
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    overflow: hidden;
+	}
+
+  .network-log-grid.data-grid {
+	    border: none;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    font-size: 11px;
+	}
+
+	.network-log-grid.data-grid table.data {
+	    -webkit-background-size: 1px 82px;
+	    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(0.5, rgba(0, 0, 0, 0)), color-stop(0.5, rgba(0, 0, 0, 0.05)), to(rgba(0, 0, 0, 0.05)));
+	    font-size: 11px;
+	}
+
+	.network-log-grid.data-grid.small table.data {
+	    -webkit-background-size: 1px 42px;
+	}
+
+	.network-log-grid.data-grid td {
+	    line-height: 17px;
+	    height: 41px;
+	    border-right: 1px solid rgb(210, 210, 210);
+	    vertical-align: middle;
+	}
+
+	.network-log-grid.data-grid.small td {
+	    height: 17px;
+	}
+
+	.network-log-grid.data-grid th {
+		position: relative;
+	    border-bottom: 1px solid rgb(64%, 64%, 64%);
+	    height: 30px;
+	    font-size: 11px;
+	    font-weight: bold;
+	}
+
+	.network-log-grid.data-grid.small th {
+	    height: 22px;
+	}
+
+	.network-log-grid.data-grid th, .network-log-grid.data-grid th.sort-descending, .network-log-grid.data-grid th.sort-ascending {
+	    background: -webkit-gradient(linear, left top, left bottom, from(rgb(236, 236, 236)), to(rgb(217, 217, 217)));
+	}
+
+	.network-log-grid.data-grid .data-container {
+	    top: 31px;
+	}
+
+	.network-log-grid.data-grid.small .data-container {
+	    top: 23px;
+	}
+
+	.network-log-grid.data-grid tr.information {
+	    background-color: white;
+	}
+
+	.network-log-grid.data-grid tr:not(.information) td.name-column {
+	    font-weight: bold;
+	    cursor: pointer;
+	}
+
+	#network-container:not(.brief-mode) .network-log-grid.data-grid td.name-column:hover {
+	    text-decoration: underline;
+	}
+
+	.network-log-grid.data-grid td.method-column,
+	.network-log-grid.data-grid td.status-column,
+	.network-log-grid.data-grid td.type-column,
+	.network-log-grid.data-grid td.initiator-column,
+	.network-log-grid.data-grid td.size-column,
+	.network-log-grid.data-grid td.time-column {
+	    background-color: rgba(0, 0, 0, 0.07);
+	}
+
+	.network-log-grid.data-grid td.size-column,
+	.network-log-grid.data-grid td.time-column {
+	    text-align: right;
+	}
+
+	.network-cell-subtitle {
+	    font-weight: normal;
+	    color: gray;
+	}
+	.network-log-grid.data-grid tr.selected .network-cell-subtitle {
+	    color: white;
+	}
+
+	.network-log-grid tr.highlighted-row {
+	    -webkit-animation: "network-row-highlight-fadeout" 2s 0s;
+	}
+
+	@-webkit-keyframes network-row-highlight-fadeout {
+	    from {background-color: rgba(56, 121, 217, 1); }
+	    to { background-color: rgba(56, 121, 217, 0); }
+	}
+
+	.network-header-subtitle {
+	    color: gray;
+	}
+
+	.network-log-grid.data-grid.small .network-cell-subtitle,
+	.network-log-grid.data-grid.small .network-header-subtitle
+	{
+	    display: none;
+	}
+	/* Summary */
+
+	.network-log-grid.data-grid tr.information td {
+	    padding-bottom: 20px !important;
+	}
+
+	.network-log-grid.data-grid .network-summary-bar {
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    bottom: 0;
+	    margin-right: -14px;
+	    background-color: rgb(101, 111, 130);
+	}
+
+	.network-log-grid.data-grid .network-summary-bar td {
+	    color: white;
+	    height: 20px !important;
+	    border: none;
+	    font-size: 11px;
+	    font-weight: bold;
+	    padding: 0 0 0 8px;
+	    white-space: pre;
+	    overflow : hidden;
+	    text-overflow : ellipsis;
+	}
+
+	.network-log-grid.data-grid .network-summary-bar img {
+	    vertical-align: middle;
+	    padding-right: 8px;
+	}
+
+	#network-container {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    bottom: 0;
+	    right: 0;
+	    width: 100%;
+	    height: 100%;
+	    border-right: 0 none transparent;
+	    overflow-y: auto;
+	    overflow-x: hidden;
+	}
+	#network-container.brief-mode .data-grid .data-container {
+	    padding-right: 0;
+	}
+
+.split-view {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.split-view-contents {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    cursor: default;
+}
+
+.split-view-sidebar-left {
+    border-right: 1px solid rgb(64%, 64%, 64%);
+}
+
+.split-view-sidebar-right {
+    border-left: 1px solid rgb(64%, 64%, 64%);
+}
+
+.split-view-resizer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    z-index: 500;
+    cursor: ew-resize;
+}
+
+#network-close-button {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-image: url(img/closeButtons.png);
+    background-position: 0 0;
+    background-color: transparent;
+    border: 0 none transparent;
+    top: 8px;
+    left: 5px;
+    z-index: 10;
+}
+
+#sidepanel_main.small #network-close-button  {
+    top: 4px;
+}
+
+#network-close-button:hover {
+    background-position: 14px 0;
+}
+
+#network-close-button:active {
+    background-position: 28px 0;
+}
+
+.network.panel.viewing-resource #network-close-button  {
+    display: block;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    cursor: default;
+    /*position: absolute;*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    font-family: Lucida Grande, sans-serif;
+    font-size: 10px;
+    margin: 0;
+}
+
+body.dock-to-right:not(.undocked) {
+    border-left: 1px solid rgb(80, 80, 80);
+}
+
+body.dock-to-right.inactive:not(.undocked) {
+    border-left: 1px solid rgb(64%, 64%, 64%);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+}
+
+:focus {
+    outline: none;
+}
+
+img {
+    -webkit-user-drag: none;
+}
+
+iframe, a img {
+    border: none;
+}
+
+iframe.view {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+ol {
+  list-style-type:none;
+}
+
+#sidepanel_nav div {
+  padding:4px;
+  text-align:center;
+  width:30%;
+  vertical-align:bottom;
+  display:inline;
+  margin-top:10px;
+  font-size:11px;
+  line-height:40px;
+  margin-left:23px;
+  font-weight:bold;
+  font-color:#2e2e2e;
+}
+#sidepanel_nav {
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ECECEC), to(#D9D9D9));
+  padding-left:20px;
+  font-size:14px;
+  height:31px;
+  border-bottom:1px solid #a3a3a3;
+}
+#sidepanel_nav div.active_tab {
+  color:#2e2e2e;
+  background-color:white;
+  border-top:1px solid #a3a3a3;
+  border-right:1px solid #a3a3a3;
+  border-left:1px solid #a3a3a3;
+}
+.resource-headers-view .outline-disclosure .parent {
+    -webkit-user-select: none;
+    font-weight: bold;
+}
+
+.resource-headers-view .outline-disclosure .children li {
+    white-space: nowrap;
+}
+
+.resource-headers-view .outline-disclosure li.expanded .header-data {
+    display: inline;
+    margin-left: 5px;
+    font-weight: normal;
+    color: rgb(45%, 45%, 45%);
+}
+
+.resource-headers-view .outline-disclosure .header-name {
+    color: rgb(33%, 33%, 33%);
+    display: inline-block;
+    margin-right: 0.5em;
+    font-weight: bold;
+    vertical-align: top;
+    white-space: pre-wrap;
+}
+
+.resource-headers-view .outline-disclosure .header-value {
+    display: inline;
+    margin-right: 100px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    margin-top: 1px;
+}
+
+li.parent.expanded {
+  margin-top:10px;
+}
+ol.children.expanded li {
+  padding:2px;
+}
+
+.data-grid .data-container {
+    position: absolute;
+    top: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-right: 14px;
+    overflow-x: hidden;
+    overflow-y: overlay;
+}
+
+.data-grid.inline .data-container {
+    position: static;
+}
+
+.data-grid th.corner {
+    width: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-right: 0 none transparent;
+}
+
+.data-grid table.data {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 16px;
+    bottom: 0;
+    height: 100%;
+    border-top: 0 none transparent;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(0.5, white), color-stop(0.5, rgb(234, 243, 255)), to(rgb(234, 243, 255)));
+    -webkit-background-size: 1px 32px;
+    table-layout: fixed;
+}
+
+input.filter {
+	display: none;
+	width: 100%;
+	position: absolute;
+	z-index: 9999;
+	margin: 0 -4px;
+	bottom: -20px;
+	border: 3px solid rgb(217, 217, 217);
+	box-shadow: 0px 1px 1px 1px rgb(179, 179, 179);
+}
+
+img.filter {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+/** Dark Theme **/
+.dark .network-cell-subtitle,
+.dark .tag-category,
+.dark .tag-account,
+.dark .network-header-subtitle { color: dimgrey }
+.dark .tag-name,
+.dark .status-code,
+.dark .request-size,
+.dark .timevalue { color: white }
+.dark tr.hover { background-color: #0c2d53 }
+.dark .network-log-grid.data-grid th,
+.dark .network-log-grid.data-grid th.sort-descending,
+.dark .network-log-grid.data-grid th.sort-ascending { background: #f2cd14 }
+.dark .sprite { background-color: white }
+.dark .blank-tag-row { background-color: inherit; border: 1px solid dimgray; }
+.dark .network-log-grid.data-grid tr.information { background-color: inherit; }
+.dark .network-log-grid.data-grid td { border-right: 1px solid dimgray; }
+.dark #sidepanel_main {background-color: inherit;}
+.dark #sidepanel_main  { color: darkgray; background-color: #242424 }
+.dark #sidepanel_nav { background-image: none; background-color: #3e3e3e; }
+.dark #sidepanel_nav div.active_tab { background-color: silver }
+.dark input.filter { border-color: #f2cd14; }
+.dark .active_row { background-color: silver; }

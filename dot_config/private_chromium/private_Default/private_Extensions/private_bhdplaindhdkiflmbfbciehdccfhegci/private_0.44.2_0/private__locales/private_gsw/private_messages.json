@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Fehlerbehebung"
+   },
+   "active_live_debug_status": {
+      "message": "Live-Fehlerbehebung"
+   },
+   "active_preview_status": {
+      "message": "Vorschau"
+   },
+   "check_network": {
+      "message": "Es müssen Drittanbietercookies von optimize.google.com und www.google-analytics.com zugelassen sein. Bitte überprüfen Sie das und darüber hinaus Ihre Netzwerkverbindung und CSP-Richtlinien (https://support.google.com/optimize/answer/7388531). Versuchen Sie es dann noch einmal."
+   },
+   "diff_preview_container": {
+      "message": "Die Vorschau auf dieser Seite ist nicht dieselbe wie die, die auf der Testdetailsseite ausgewählt wurde."
+   },
+   "emulation_failure": {
+      "message": "Geräteemulationsvorschau fehlgeschlagen: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Vorschau auf Websitevariante kann nicht angezeigt werden. Bitte aktivieren Sie Cookies und starten Sie den Browser neu."
+   },
+   "enable_cookies_live": {
+      "message": "Live-Fehlerbehebung nicht möglich. Bitte aktivieren Sie Cookies und starten Sie den Browser neu."
+   },
+   "ext_description": {
+      "message": "Vereinfacht die Content-Bearbeitung mit Google Optimize."
+   },
+   "failed_to_load": {
+      "message": "Der Optimize-Editor kann nicht geladen werden."
+   },
+   "help": {
+      "message": "Hilfe"
+   },
+   "inactive_preview_status": {
+      "message": "Vorschau inaktiv"
+   },
+   "internal_error": {
+      "message": "Beim Optimize-Editor ist ein interner Fehler aufgetreten."
+   },
+   "mobile": {
+      "message": "Mobil"
+   },
+   "no_optimize_snippet": {
+      "message": "Ihre Seite erfordert ein Optimize-Snippet für diesen Container. Um eine Vorschau auf diese Seite anzuzeigen und einen Test zu starten, stellen Sie bitte sicher, dass das Snippet für die Seite ordnungsgemäß eingerichtet ist."
+   },
+   "no_preview_status": {
+      "message": "Keine Vorschau"
+   },
+   "no_snippet_status": {
+      "message": "Kein Snippet"
+   },
+   "not_active_review_page": {
+      "message": "Diese Seite ist nicht mehr die aktive Vorschauseite. Laden Sie sie erneut, um die aktive Vorschau anzuzeigen, oder lassen Sie es dabei bewenden und sehen Sie sich diese Variante weiter an."
+   },
+   "not_experiment_page_1": {
+      "message": "Diese Erweiterung ist ein Tool zum Anzeigen Ihrer Optimize-Testseiten in Vorschau."
+   },
+   "not_experiment_page_2": {
+      "message": "Die aktuelle Seite wird nicht in einer Vorschau angezeigt."
+   },
+   "open_optimize": {
+      "message": "Google Optimize öffnen"
+   },
+   "product_name": {
+      "message": "Optimieren"
+   },
+   "public_id_missing": {
+      "message": "Das Google Optimize-Snippet für den Container mit der ID $1 wurde nicht ordnungsgemäß auf dieser Seite installiert. Überprüfen Sie, ob es auf den Seiten, die Sie testen möchten, korrekt installiert ist, um deine Vorschau der Websitevariante zu sehen oder die Fehlerbehebung für den Container zu starten.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Aktualisieren"
+   },
+   "tablet": {
+      "message": "Tablet"
+   },
+   "turn_off": {
+      "message": "Vorschau deaktivieren"
+   },
+   "turn_off_debug": {
+      "message": "Fehlerbehebung deaktivieren"
+   },
+   "turn_off_live": {
+      "message": "Live-Fehlerbehebung deaktivieren"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nDie von Ihnen eingegebene URL:\n$1\nführt auf diese Seite. Aus Sicherheitsgründen wird im Optimize-Editor die Weiterleitung zu manchen URLs nicht unterstützt.\n\nWenn Sie diese Seite in Ihrem Test verwenden möchten, kehren Sie mit der \"Zurück\"-Schaltfläche Ihres Browsers zu Optimize zurück und stellen Sie die Editor-URL auf die Adresse dieser Seite um:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Web (Desktop)"
+   }
+}

@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "Otklanjanje pogrešaka"
+   },
+   "active_live_debug_status": {
+      "message": "Otklanjanje pogrešaka uživo"
+   },
+   "active_preview_status": {
+      "message": "Pregledavanje"
+   },
+   "check_network": {
+      "message": "Provjerite jesu li dopušteni kolačići treće strane s web-lokacija optimize.google.com i www.google-analytics.com, provjerite svoju mrežnu vezu i pravila za CSP (https://support.google.com/optimize/answer/7388531) te pokušajte ponovno."
+   },
+   "diff_preview_container": {
+      "message": "Pregled na ovoj stranici razlikuje se od onog odabranog za pregled sa stranice pojedinosti o eksperimentu."
+   },
+   "emulation_failure": {
+      "message": "Pregled emulacije uređaja nije uspio: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "Pregled doživljaja nije moguć. Svakako omogućite kolačiće i ponovno pokrenite preglednik."
+   },
+   "enable_cookies_live": {
+      "message": "Nije moguće otkloniti pogreške uživo. Svakako omogućite kolačiće i ponovno pokrenite preglednik."
+   },
+   "ext_description": {
+      "message": "Omogućuje uređivanje sadržaja pomoću Google Optimizea."
+   },
+   "failed_to_load": {
+      "message": "Optimize uređivač nije se uspješno učitao."
+   },
+   "help": {
+      "message": "Pomoć"
+   },
+   "inactive_preview_status": {
+      "message": "Neaktivan pregled"
+   },
+   "internal_error": {
+      "message": "U Optimize uređivaču došlo je do interne pogreške."
+   },
+   "mobile": {
+      "message": "Mobilno"
+   },
+   "no_optimize_snippet": {
+      "message": "Ova stranica nema Optimize isječak za ovaj spremnik. Da biste pregledali ovu stranicu i pokrenuli eksperiment, provjerite je li isječak na vašoj stranici pravilno postavljen."
+   },
+   "no_preview_status": {
+      "message": "Nema pregleda"
+   },
+   "no_snippet_status": {
+      "message": "Nema isječka"
+   },
+   "not_active_review_page": {
+      "message": "Ova stranica više nije stranica aktivnog pregleda. Ponovno je učitajte da biste vidjeli aktivan pregled ili nemojte napraviti ništa da biste i dalje vidjeli tu varijaciju."
+   },
+   "not_experiment_page_1": {
+      "message": "Ovo je proširenje alat za pregledavanje Optimize stranica eksperimenta."
+   },
+   "not_experiment_page_2": {
+      "message": "Trenutačna se stranica ne pregledava."
+   },
+   "open_optimize": {
+      "message": "Otvori Google Optimize"
+   },
+   "product_name": {
+      "message": "Optimize"
+   },
+   "public_id_missing": {
+      "message": "Isječak Google Optimizea za spremnik s ID-jem $1 nije pravilno instaliran na ovoj stranici. Da biste pregledali doživljaje ili otklonili pogreške spremnika, svakako instalirajte isječak Google Optimizea na svim stranicama koje želite testirati.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "Ponovno učitaj"
+   },
+   "tablet": {
+      "message": "Tablet"
+   },
+   "turn_off": {
+      "message": "Isključi pregled"
+   },
+   "turn_off_debug": {
+      "message": "Isključi otklanjanje pogrešaka"
+   },
+   "turn_off_live": {
+      "message": "Isključi otklanjanje pogrešaka uživo"
+   },
+   "url_redirect": {
+      "message": "Google Optimize\n\nURL koji ste unijeli:\n$1\npreusmjerava na ovu stranicu. Neka preusmjeravanja iz sigurnosnih razloga nisu podržana u Optimize uređivaču.\n\nDa biste koristili ovu stranicu u eksperimentu, upotrijebite gumb Natrag u pregledniku da biste se vratili na Optimize i ažurirali URL uređivača adresom ove stranice:\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "Web"
+   }
+}

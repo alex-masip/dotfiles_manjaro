@@ -1,0 +1,110 @@
+{
+   "active_debug_status": {
+      "message": "正在调试"
+   },
+   "active_live_debug_status": {
+      "message": "正在进行现场调试"
+   },
+   "active_preview_status": {
+      "message": "正在预览"
+   },
+   "check_network": {
+      "message": "请确保您已允许来自 optimize.google.com 和 www.google-analytics.com 的第三方 Cookie，检查您的网络连接和 CSP 政策 (https://support.google.com/optimize/answer/7388531)，然后再试一次。"
+   },
+   "diff_preview_container": {
+      "message": "这个预览页面与实验详细信息页中选择要预览的页面不同。"
+   },
+   "emulation_failure": {
+      "message": "设备模拟预览失败：$1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "enable_cookies": {
+      "message": "无法预览体验。请确保启用 Cookie 并重启浏览器。"
+   },
+   "enable_cookies_live": {
+      "message": "无法进行现场调试。请确保启用 Cookie 并重启浏览器。"
+   },
+   "ext_description": {
+      "message": "通过 Google 优化工具让内容修改变得更轻松。"
+   },
+   "failed_to_load": {
+      "message": "Google 优化工具编辑器未能加载。"
+   },
+   "help": {
+      "message": "帮助"
+   },
+   "inactive_preview_status": {
+      "message": "无效预览"
+   },
+   "internal_error": {
+      "message": "Google 优化工具编辑器出现内部错误。"
+   },
+   "mobile": {
+      "message": "移动设备"
+   },
+   "no_optimize_snippet": {
+      "message": "此页面上没有适用于该容器的 Google 优化工具代码段。要预览此页面并启动实验，请检查您的网页是否已正确安装相应代码段。"
+   },
+   "no_preview_status": {
+      "message": "无预览"
+   },
+   "no_snippet_status": {
+      "message": "无代码段"
+   },
+   "not_active_review_page": {
+      "message": "此页面不再是有效预览页面。请重新加载以查看有效预览，或不进行任何操作以继续查看此变体。"
+   },
+   "not_experiment_page_1": {
+      "message": "此扩展程序是用于预览您的 Google 优化工具实验页面的工具。"
+   },
+   "not_experiment_page_2": {
+      "message": "无法预览当前页面。"
+   },
+   "open_optimize": {
+      "message": "打开 Google 优化工具"
+   },
+   "product_name": {
+      "message": "优化工具"
+   },
+   "public_id_missing": {
+      "message": "ID 为 $1 的容器的 Google 优化工具代码段未正确安装到此页上。要预览体验或调试容器，请确保将 Google 优化工具代码段安装到您要测试的所有页面上。",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "reload": {
+      "message": "重新加载"
+   },
+   "tablet": {
+      "message": "平板电脑"
+   },
+   "turn_off": {
+      "message": "关闭预览"
+   },
+   "turn_off_debug": {
+      "message": "关闭调试功能"
+   },
+   "turn_off_live": {
+      "message": "关闭现场调试"
+   },
+   "url_redirect": {
+      "message": "Google 优化工具\n\n您输入的网址\n$1\n会重定向至此页面。出于安全原因，有些重定向在 Google 优化工具编辑器中不受支持。\n\n要在实验中使用此页面，请使用浏览器的后退按钮返回到 Google 优化工具，然后将编辑器网址更新为此页面的地址：\n$2",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         },
+         "2": {
+            "content": "$2"
+         }
+      }
+   },
+   "web": {
+      "message": "桌面版网页"
+   }
+}

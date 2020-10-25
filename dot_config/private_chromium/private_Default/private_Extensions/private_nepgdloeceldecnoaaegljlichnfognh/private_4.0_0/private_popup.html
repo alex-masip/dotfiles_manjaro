@@ -1,0 +1,253 @@
+<html>
+<head>
+    <script type="text/javascript" src="jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="jquery-ui.min.css"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <style>
+        .ui-tabs .ui-tabs-nav .ui-tabs-anchor {width: 120px; padding: 0px 3px;}
+    </style>
+</head>
+<body>
+    <h4 style="margin: 0px;">BigQuery Mate Navigator</h4>
+<div id="tabs">
+    <ul>
+      <li><a href='#tab-about' style='width: 105px;'>About BQ Mate</a></li>
+      <li><a href='#tab-help' style='width: 30px;'>Help</a></li>
+      <li><a href='#tab-potens' style='width: 75px;'><b style="color:red;">Potens.io</b></a></li>
+<!--      <li><a id='search-tab-tab' href='#tab-search' style='width: 45px;'>Search</a></li> -->
+    </ul>
+    <div id='tab-about' style='font-size: 13px;'><pre>
+<b>BigQuery Mate</b><span id='AboutLogoi'></span>
+Companion tool for BigQuery UI used by myself and my peers at Viant Inc. 
+(Vindico, Specific Media, Myspace, Xumo). It adds some functionality 
+to BigQuery Native UI that is found helpful in day on day activity.
+<b>BigQuery Mate Features:</b> (<i>see Help for details</i>)
+1.  <span style="opacity:.5">Control Nav Panel size - <i>retired on Jan.31, 2016</i></span>
+2.  Hide/Show Datasets Panel
+3.  Datasets Filtering
+4.  Datasets Count (Filtered/Total)
+5.  Monetary Cost estimation based on processed bytes
+6.  Keywords Auto-Capitalization
+7.  Comment/Uncomment Selection or Outside Selection
+8.  Support for Parametrized Query / Saved Query with Parameters
+9.  Tables Decoration / Manipulation
+10. Find / Replace Functionality (with support for regular expressions)
+11. Tabs Auto naming after query name (saved query, new query)
+12. Navigator: list of all BQ sessions across your PC 
+    with quick info and ability to jump to<span style='float:right; text-decoration:none;color:black;font-weight: bold;'><span style='float:right'><b>Some Useful Links:</b></span>
+<a style='float:right; text-decoration:none;color:darkblue;font-weight: bold;' href='http://bigquery.cloud.google.com' target='_blank'>New BigQuery Session</a>
+<a style='float:right; text-decoration:none;color:darkblue;font-weight: bold;' href='http://cloud.google.com/bigquery/query-reference' target='_blank'>Query Reference (Legacy SQL)</a>
+<a style='float:right; text-decoration:none;color:darkblue;font-weight: bold;' href='https://cloud.google.com/bigquery/sql-reference/' target='_blank'>Query Reference (Standard SQL)</a>
+<a style='float:right; text-decoration:none;color:darkblue;font-weight: bold;' href='http://status.cloud.google.com/' target='_blank'>Google Cloud Status</a>
+<a style='float:right; text-decoration:none;color:darkblue;font-weight: bold;' href='http://stackoverflow.com/questions/tagged/google-bigquery' target='_blank'>Ask on Stack Overflow</a>
+<a style='float:right; text-decoration:none;color:darkblue;font-weight: bold;' href='http://trello.com/b/a06WYdZU/bigquery-mate' target='_blank'>BigQuery Mate on Trello</a></span>
+13. Query Outline
+14. Extended Result Panel
+15. F5 to execute query + <span style="text-decoration:none;color:blue;">Ctrl-F5 to run selection</span> 
+16. Interactive Pivots / Charts of Query Result  <!--    <b>New in v1.4</b> -->
+17. Search / Filter Recent Queries
+18. Tables Filtering
+19. Add All Fields to Query Editor, with or w/o alias 
+20. Thousands separator for numeric fields 
+21. Contextual Help via F1 or Right-Click Menu 
+22. SQL Version Quick Switch (Click on SQL button or <b style="color:blue">Alt-L</b>) <span style="text-decoration:none;color:blue;">Recent!</span> 
+23. Save Default SQL Version (Double CLick on SQL button or <b style="color:blue">Shift-Alt-L</b>) <span style="text-decoration:none;color:blue;">Recent!</span>
+24. Support for BigQuery Named Paramaters (@param). <span style="text-decoration:none;color:red;">New!</span>
+    <i>Magnus style parameters still supported (&lt;var_param>)</i>
+25. Keyboard Shortcuts to view previous/next page - <b style="color:blue">Ctrl-ArrowLeft</b>, <b style="color:blue">Ctrl-ArrowRight</b>
+    and first/last page - <b style="color:blue">Ctrl-ArrowDown</b>, <b style="color:blue">Ctrl-ArrowUp</b>
+<span style='font-size: 12px;'><b>Warning</b>: Google Team is constantly working on improving their BigQuery UI. Sometimes this breaks
+features of the Tool. When this is a case, please calm down, stay tuned and check periorically 
+for extension updates. I am trying to fix issues as soon as they are introduced and I see them!</span></pre>
+    </div>
+    <div id='tab-help' style='font-size: 13px;'><pre id='help1i' >
+    <b>BigQuery Mate Features:</b> <span style='float:right;'>(see more details <a style=' text-decoration:none;color:darkblue;font-weight: bold;'href='http://trello.com/b/a06WYdZU/bigquery-mate' target='_blank'><b>on Trello</b></a>)</span>
+
+1. <span style="opacity:.4"><b>Control size of the Datasets Panel</b>
+Datasets and tables names tend to be verbose. 
+Allowing users to tune width of Datasets Panel is just little good to have.</span>
+<span style="opacity:.7">Google has recently added resize control to change Nav Bar width. 
+So above feature is removed from extension</span>
+
+2. <b>Hide/Show Datasets Panel</b>
+Most of your time you spend playing with Query itself. 
+Saving your screen real estate by hiding Datasets panel is another good to have
+
+3. <b>Datasets Filtering</b>
+Some of our Projects consist of hundreds and hundreds of datasets with tens of 
+thousands tables in them available to users across the business. 
+Ability to filter visible datasets helps navigate and locate needed dataset 
+
+4. <b>Datasets Count (Filtered/Total)</b>
+Just simple counts
+
+5. <b>Monetary Cost estimation based on processed bytes</b>
+Estimated cost added to the validator and is based on estimated processing bytes. 
+As well as it is based on billing tier 1 pricing ($5 per TB currently)
+</pre><pre id='help2i'>
+6. <b>Keywords Auto-Capitalization</b>
+Auto-capitalization as you type is added for GBQ Keywords. 
+It is only html decoration, so copy/paste of BQL still is 
+as originally typed and not as it is shown.
+To address this, Preserve Format (in context menu) is introduced. 
+After format is preserved, decoration is preserved as actual text. 
+So you can copy paste well-formatted text. 
+</pre><pre id='help3i'>
+7. <b>Comment/Uncomment Selection or Outside Selection</b>
+Use <b style="color:blue">Ctrl+/</b> and <b style="color:blue">Shift+Ctrl+/</b> to respectively comment / uncomments selected lines
+Use <b style="color:blue">Ctrl+Alt+/</b> and <b style="color:blue">Shift+Ctrl+Alt+/</b> to respectively comment / uncomment lines 
+outside selection
+
+8. <b>Support for Parametrized Query / Saved Query with Parameters</b>
+If you have you Saved Queries stored with parameters, now you can easily 
+bulk set those parameters using Parameters Button. 
+Note: <i>parameters in this tool defined after another internal 
+Viant BigQuery centric Orchestration and Scheduling Tool called Magnus. 
+Magnus is using following naming rule for parameters: </i>
+<b style="color:blue">&lt;var_parametername&gt;</b>
+You can adopt this naming to benefit Parameters Button functionality. 
+Otherwise check Find / Replace Functionality 
+</pre><pre id='help6i'>
+9. <b>Tables Decoration / Manipulation</b>
+Using Decorate Button allows to enumerate all recognized (by Native UI) 
+tables in query and present them to user for further decoration. 
+This can be useful during dev/testing phase to minimize cost or to do 
+fancy stuff with querying table specific time slice, etc.
+
+10. <b>Find / Replace Functionality (with support for regular expressions)</b>
+With regular expressions user can find any code fragments and replace them either 
+individually or by replace pattern using captured matches. This is not text editor 
+find/ replace  - so feature somewhat limited  - replace next is not supported yet. 
+So far  - either all or nothing. User can replace all matches at once using 
+Replace entry (as in example below). Or each found match can be replaced 
+individually - Replace input left empty
+</pre><pre id='help4i'>
+11. <b>Tabs Auto naming after query name (saved query, new query)</b>
+Unfortunately all BigQuery Sessions are named as "Google BigQuery" which makes it 
+hard to navigate through many opened queries and to locate needed one. 
+Partially this is addressed by this extension's Navigator feature. 
+In addition, this extension will automatically name user's session with the name 
+of opened Saved Query. This will be reflected in all respective browser's Tabs 
+and in Tool's Navigator. Sessions with New Query will be named "New Query". 
+User also can change session name outside of this extension and it will be 
+reflected in tool's Navigator  - till when user loads new saved query 
+or opens new query  - in which case session is auto name to respectively name of 
+saved query or "New Query"    <!--Native UI:</pre><pre id='help5i'>Extension: -->
+</pre><pre>
+12. <b>Navigator: list of all BQ sessions across your PC with quick info 
+    and ability to jump to</b>
+When user has multiple BigQuery sessions opened across one or multiple browser 
+windows  - this feature helps to see all of them in one place with brief info 
+and ability to jump right to the one needed. This feature available in any 
+BigQuery sessions extension icon on the very right in the address bar
+
+13. <b>Query Outline</b>
+When dealing with complex and "bushy" query (especially with someone else's) 
+you want to have high level idea about the query. Here this mode is handy. 
+It strips out everything from query but main structure. 
+Use then <b style="color:blue">CTRL+Z</b> to get back original query
+
+14. <b>Extended Result Panel</b>
+If you want to play with your result and discover something just by exploring data - 
+this is your option. Click <b style="color:blue">+</b> Button on the left to the Query Result.
+This will leave Result Panel ONLY in view with hundreds of rows of data available 
+at the same time per page. Click <b style="color:blue">-</b> Button and this will toggle view back to normal
+
+15. <b>F5 to execute query</b>
+Many data tools use <b style="color:blue">F5</b> as a shortcut to execute script. 
+I've decided to add this in addition to Native UI's <b style="color:blue">CTRL-Enter</b>.
+Also added <b style="color:blue">CTRL-F5</b> to run selection</span> 
+in addition to Native UI's <b style="color:blue">CTRL-E</b>.
+ 
+16. <b>Interactive Pivots / Charts of Query Result</b>
+User can pivot / chart query result. 
+Currently only result available on page is "supported", so use extended result 
+panel to chart more data. Meantime there is an "easter egg" that allows to 
+pivot / chart whole result. If you will find it  - please "Use it at your own risk" 
+as processing big volume of data on client side can crash your session. 
+
+<b>Note</b>: with recent UI changes by Google Team - for this feature to work 
+      please switch to Result with JSON mode; 
+
+17. <b>Search / Filter Recent Queries</b>
+Allows to find specific query by search term and status within Recent Queries
+<b>Note</b>: Make sure <b>Query History</b> is loaded on page.
+      If not yet - click respective Link above Navigation Panel
+
+18. <b>Tables Filtering</b>
+If your dataset has long list of tables - you will love this feature!
+You can filter tables in dataset browser panel that will appear when 
+you click on dataset in nav panel
+
+19. <b>Add Fields</b>
+Add All Fields to Query Editor, with or w/o alias. 
+Quite frequently want to script all tables’ fields out to Query Editor. 
+This feature allows doing so and even with alias use.
+Try and you will see how it works   
+
+20. <b>Thousands separator for numeric fields</b>
+Switch use of thousands separator on and off. 
+Click BQ Mate Button to see respective checkbox.
+Tested for US English locale 
+
+21. <b>Contextual Help via F1 or Right-Click Menu</b>
+Using <b style="color:blue">Contextual Menu</b>: Right Click on Selected Keyword and use 
+Mate Menu Item "Help for 'keyword'"
+Using <b style="color:blue">F1</b>: Select keyword or just click on it and press F1
+Note: <i>Help is SQL Version sensitive - help resource depends selected 
+sql version - legacy or standard sql</i>
+        
+22. <b>SQL Version Quick Switch</b> 
+Click on SQL button or press <b style="color:blue">Alt-L</b>
+
+23. <b>Save Default SQL Version</b> 
+Double CLick on SQL button or press <b style="color:blue">Shift-Alt-L</b>
+        
+24. <b>Support for BigQuery Named Paramaters (@param)</b> 
+see <a style='text-decoration:none;color:darkblue;font-weight: bold;' href='https://cloud.google.com/bigquery/querying-data#running_parameterized_queries' target='_blank'>Running parameterized queries</a></b></pre></div>
+
+<div id='tab-potens' style='font-size: 13px;'>
+<center>    <p class="content-title"><b>From Creator of BigQuery Mate</b></p> 
+<p><i>Dear User, Thank you for using BigQuery Mate, the tool I created back in October 2015. The main purpose was to add some extra functionality (25 items as of today) to existing Native UI to boost productivity. Since then, there are more than 7000 users enjoying BQ Mate on daily basis. For those of you who are looking for even more features and IDE style of UI - <b>I strongly recommend to check out Potens.io</b> - suite of powerful efficiency-focused self-service data tools around Google BigQuery</i></p> 
+<center>    
+<br><span id='AboutLogoii'></span><br><br>  
+Two powerful efficiency-focused self-service data tools<br> 
+The Magnus workflow automator and Goliath data explorer are tools designed for non-engineers to help businesses make the most of their existing data and confidently make informed strategy decisions.</center>  
+    <p><b>Magnus</b> - Workflow Automator</p> 
+    <p>Expand Google BigQuery with a unique capability to orchestrate and schedule multiple queries, scripts, APIs, and exports in one systematic process called workflow.</p> 
+    <p><b>Goliath</b> - Data Explorer</p>  
+    <p>Easily manage and query your existing Google BigQuery data, giving full transparency into all your data assets in seconds.</p>   
+<h3>Try for free now - <a href="https://users.potens.io/signup" target="_newtab">Sign Up for Free Trial</a></h3>    
+<p>Check Potens.io on 
+  <a href="https://console.cloud.google.com/launcher/details/potens-io/potensio" target="_newtab">Cloud Launcher</a> and     
+  <a href="https://potensio.zendesk.com/" target="_newtab">Support,&nbsp;Tutorials,&nbsp;Videos</a> for more info about Potens.io </p>     
+ <iframe src="https://www.youtube.com/embed/txDaXLJqTH8" width="620" height="430" frameborder="0" allowfullscreen=""></iframe>  
+ <!--<iframe src="//www.youtube.com/embed/BKa-quMI0aw" width="298" height="210" frameborder="0" allowfullscreen=""></iframe>  --> 
+<br><p>You can see more Potens.io videos <a href="https://potensio.zendesk.com/" target="_newtab">here</a></p>     
+Affiliation disclosure: I am author and am currently leading team behind Potens.io
+</div>
+<!--    
+<div id='tab-search' style='font-size: 14px;'>
+    <p></p> <b>Recent Queries: </b>
+    <input id="search-text" type="text" placeholder='type search term here...' autofocus/>
+    <button id='search-button'>Search</button>
+    <button id='search-reset'>Reset</button>
+    <span id="search-matches"></span>
+
+    <p></p> <b>Status: </b><span style="position:absolute; left:140px">
+    <input type="radio" name="status" id="status_all" checked /><label for="status_all" style="padding-right:10px">All</label>
+    <input type="radio" name="status" id="status_success" /><label for="status_success" style="padding-right:10px">Success</label>
+    <input type="radio" name="status" id="status_failed" /><label for="status_failed">Failed</label>
+    </span>
+ 
+</div>
+-->    
+</div>
+    
+
+    
+<div><span id="status">
+</span></div>
+</body>
+<script src="popup.js"></script>
+</html>

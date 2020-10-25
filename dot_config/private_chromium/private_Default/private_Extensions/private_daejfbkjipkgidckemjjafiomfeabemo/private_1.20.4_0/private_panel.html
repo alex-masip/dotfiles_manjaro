@@ -1,0 +1,129 @@
+<!--
+Copyright (C) 2012 Observepoint LLC. All rights reserved.
+-->
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="sprite.css">
+    <link rel="stylesheet" type="text/css" href="opinspector.css">
+    <script src='js/lib/jquery-1.8.2.min.js'></script>
+    <script src='js/lib/handlebars.min.js'></script>
+    <script src='js/lib/templates/tag_row.tmpl.js'></script>
+    <script src='js/lib/templates/variable_data.tmpl.js'></script>
+    <script src='js/lib/templates/request_data.tmpl.js'></script>
+    <script src='js/lib/templates/blank_tag_row.tmpl.js'></script>
+    <script src='js/panel.js'></script>
+    <script src='js/panel_bindings.js'></script>
+  </head>
+
+<body>
+  <div class="panel network visible">
+    <div class="split-view visible">
+      <div class="split-view-contents split-view-sidebar-left maximized" style="left: 0px; right: 0px;">
+        <div id="network-container" class="visible">
+          <div class="data-grid network-log-grid visible filter-all" tabindex="0">
+            <table class="header" id="main_area_header" style="width:100%;">
+              <colgroup span="8">
+              <col class="tag-name-col" style="width: 30%;">
+              <col class="can-min" style="width: 12%;">
+              <col class="can-min" style="width: 12%;">
+              <col class="can-min" style="width: 12%;">
+              <col class="can-min" style="width: 12%;">
+              <col class="can-min" style="width: 12%;">
+              </colgroup>
+              <tbody>
+                <tr>
+                  <th class="name-column">
+                    <div>Tag Name<div class="network-header-subtitle">Path</div></div>
+                    <div>
+                      <img class="filter" src="img/filter.gif" width="16" height="16">
+                      <input class="filter" id="filter_name" data-filter-type="url" type="text">
+                    </div>
+
+                  </th>
+                  <th class="type-column">
+                    <div>Account</div>
+                  </th>
+                  <th class="method-column">
+                    <div>Category</div>
+                    <div>
+                      <img class="filter" src="img/filter.gif" width="16" height="16">
+                      <input class="filter" id="filter_category" data-filter-type="category" type="text">
+                    </div>
+                  </th>
+                  <th class="status-column">
+                    <div>Status<div class="network-header-subtitle">Text</div></div>
+                  </th>
+                  <th class="size-column">
+                    <div>Request Size<div class="network-header-subtitle">Response Size</div></div>
+                  </th>
+                  <th class="time-column">
+                    <div>Total Time<div class="network-header-subtitle">Latency</div></div>
+                  </th>
+                </tr>
+              </tbody>
+          </table>
+          <div class="data-container" id="main_area_data_container">
+            <table class="data" style="width: 100%">
+              <colgroup span="8">
+              <col class="tag-name-col" style="width: 30%;">
+              <col class="can-min" style="width: 12%;">
+              <col class="can-min" style="width: 12%;">
+              <col class="can-min" style="width: 12%;">
+              <col class="can-min" style="width: 12%;">
+              <col class="can-min" style="width: 12%;">
+              </colgroup>
+              <tfoot>
+              </tfoot>
+              <tbody id="observepoint-tag-rows">
+
+                <tr class="information">
+                  <td class="name-column"></td>
+                  <td class="type-column"></td>
+                  <td class="method-column"></td>
+                  <td class="status-column"></td>
+                  <td class="size-column"></td>
+                  <td class="time-column"></td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <div class="op_ad_bottom">
+                  <a href="https://www.observepoint.com/request-pages/webassurance-demo-request/" class="op_link" target="_blank">
+                    <div class="logo ad_left_col">
+                      <img src="img/op-logo.jpg" width="140">
+                    </div>
+                    <div class="ad_descrip">
+                      <span class="verbie full_ad">Take the next step toward Automated Tag Governance.</span>
+                      <span class="verbie short_ad">Take the next step toward Automated Tag Governance.</span>
+                    </div>
+                    <div class="ad_right_col">
+                      <img src="img/get-started.png" />
+                    </div>
+                  </a>
+                </div>
+              </tfoot>
+            </table>
+          </div>
+
+
+          <div id="sidepanel_main" class="split-view-contents visible">
+          	<button id="network-close-button"></button>
+            <div id="sidepanel_nav">
+              <div id="variable" class="active_tab tabselector">Variables</div>
+              <div id="request" class="tabselector">Request</div>
+            </div>
+            <div class="resource-headers-view visible">
+              <ol class="tabcontent outline-disclosure" tabindex="0" id="variable-data">
+              </ol>
+              <ol class="tabcontent" tabindex = "1" id="request-data">
+              </ol>
+            </div>
+          </div>
+        <div class="split-view-resizer visible">
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a id="download_link"></a>
+</body>
+</html>

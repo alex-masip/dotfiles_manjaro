@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pivot Demo</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js"></script>        
+        <link rel="stylesheet" type="text/css" href="pivot.css">
+        <script type="text/javascript" src="pivot.js"></script>
+        <script type="text/javascript" src="c3_renderers.js"></script>
+        <script type="text/javascript" src="export_renderers.js"></script>
+        <script type="text/javascript" src="chart.js"></script>
+        <style>
+            body {font-family: Verdana;}
+            .custom-file-input::-webkit-file-upload-button {
+                visibility: hidden;
+                outline-color: white;
+                background-color: white;
+            }
+            .custom-file-input::before {
+                content: '';
+                opacity:0; 
+                z-index:99;
+                outline-color: white;
+                border: 0px solid #fff;
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <p style="outline-color: white;position:absolute;top:-22px;left:-80px;"><input class="custom-file-input" style="outline-color: white;width:90px;-webkit-user-select: none; background-image: -webkit-linear-gradient(top,#ffffff,#fafafa);" id="csv" type="file" title=" "/></p>
+        <div id="output" style="margin: 10px;"></div>
+    </body>
+</html>
