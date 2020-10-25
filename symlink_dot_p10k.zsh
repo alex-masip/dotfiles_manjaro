@@ -1,1 +1,0 @@
-/home/alex/Repositories/dotfiles/.p10k.zsh
